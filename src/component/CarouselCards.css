@@ -1,0 +1,14 @@
+.card-wrapper {
+    width: 80%;
+  }
+  
+  .card {
+    border-radius: 20px;
+    overflow: hidden;
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
