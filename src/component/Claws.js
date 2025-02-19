@@ -12,7 +12,7 @@ class Claws extends React.Component {
                             <img src="https://via.placeholder.com/150" className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title">Indian Constituion</h5>
-                                <p className="card-text">This contains Indian Constitutional laws.</p>
+                                <p className="card-text">This contains Indian laws.</p>
                                 <Link to="/CategoriesINR" className="card-link">Come..</Link>
                             </div>
                         </div>
