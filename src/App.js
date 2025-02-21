@@ -17,6 +17,7 @@ import Container4 from './component/Container4';
 import NCard1 from './component/NCard1';
 import Claws from './component/Claws';
 import CategoriesINR from './component/CategoriesINR';
+import LawDetail from './component/LawDetail';
 
 function App() {
     return (
@@ -29,6 +30,7 @@ function App() {
                 <Route path="/library" element={<><Library /><Claws/></>} />
                 <Route path="/notice" element={<><Notice /><NCard1/></>} />
                 <Route path="/CategoriesINR" element={<CategoriesINR />} />
+                <Route path="/law/:id" element={<LawDetail />} />  {/* ✅ Add LawDetail Route */}
             </Routes>
             <Footer />
         </Router>
