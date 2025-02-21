@@ -6,7 +6,8 @@ const CarouselCards = () => {
     <div className="container mt-5">
       <div id="carouselExample" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-inner">
-          {/* Slide 1 */}
+          
+          {/* Slide 1 - Basic Legal Rights */}
           <div className="carousel-item active">
             <div className="row">
               <div className="col-md-4">
@@ -50,25 +51,9 @@ const CarouselCards = () => {
             </div>
           </div>
 
-          {/* Slide 2 */}
+          {/* Slide 2 - Consumer & Property Laws */}
           <div className="carousel-item">
             <div className="row">
-              <div className="col-md-4">
-                <div className="card shadow-sm">
-                  <img 
-                    src="https://via.placeholder.com/300x200" 
-                    className="card-img-top" 
-                    alt="Legal Advice" 
-                  />
-                  <div className="card-body">
-                    <h5 className="card-title">Legal Awareness</h5>
-                    <p className="card-text">
-                      Stay informed about important laws that affect your daily life.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
               <div className="col-md-4">
                 <div className="card shadow-sm">
                   <img 
@@ -79,7 +64,7 @@ const CarouselCards = () => {
                   <div className="card-body">
                     <h5 className="card-title">Consumer Protection</h5>
                     <p className="card-text">
-                      Understand your rights as a consumer and how to file complaints.
+                      Know how to file complaints and protect yourself from fraud.
                     </p>
                   </div>
                 </div>
@@ -95,13 +80,94 @@ const CarouselCards = () => {
                   <div className="card-body">
                     <h5 className="card-title">Property Laws</h5>
                     <p className="card-text">
-                      Learn about property disputes, land laws, and ownership rights.
+                      Learn about land ownership, property disputes, and inheritance laws.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-md-4">
+                <div className="card shadow-sm">
+                  <img 
+                    src="https://via.placeholder.com/300x200" 
+                    className="card-img-top" 
+                    alt="Rental Rights" 
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title">Rental Rights</h5>
+                    <p className="card-text">
+                      Know your rights as a tenant and landlord under rental agreements.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+
+          {/* Slide 3 - Women's & Cyber Laws */}
+          <div className="carousel-item">
+            <div className="row">
+              <div className="col-md-4">
+                <div className="card shadow-sm">
+                  <h5 className="card-title"><i className="fas fa-female text-pink"></i> Women's Rights</h5>
+                  <p className="card-text">
+                    Learn about laws protecting women against harassment, domestic violence, and workplace discrimination.
+                  </p>
+                </div>
+              </div>
+
+              <div className="col-md-4">
+                <div className="card shadow-sm">
+                  <h5 className="card-title"><i className="fas fa-user-secret text-blue"></i> Cyber Laws</h5>
+                  <p className="card-text">
+                    Understand cyber safety, hacking laws, and online fraud protection.
+                  </p>
+                </div>
+              </div>
+
+              <div className="col-md-4">
+                <div className="card shadow-sm">
+                  <h5 className="card-title"><i className="fas fa-id-badge text-yellow"></i> Identity Theft</h5>
+                  <p className="card-text">
+                    Protect yourself from identity theft and know the legal actions available.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Slide 4 - Labor & Business Laws */}
+          <div className="carousel-item">
+            <div className="row">
+              <div className="col-md-4">
+                <div className="card shadow-sm">
+                  <h5 className="card-title"><i className="fas fa-hard-hat text-brown"></i> Labor Laws</h5>
+                  <p className="card-text">
+                    Know your workplace rights, minimum wage laws, and labor protections.
+                  </p>
+                </div>
+              </div>
+
+              <div className="col-md-4">
+                <div className="card shadow-sm">
+                  <h5 className="card-title"><i className="fas fa-building text-green"></i> Business Laws</h5>
+                  <p className="card-text">
+                    Learn about business registration, tax policies, and startup laws.
+                  </p>
+                </div>
+              </div>
+
+              <div className="col-md-4">
+                <div className="card shadow-sm">
+                  <h5 className="card-title"><i className="fas fa-file-contract text-orange"></i> Contracts & Agreements</h5>
+                  <p className="card-text">
+                    Understand how legal contracts work and why they’re important.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
 
         {/* Carousel Controls */}
