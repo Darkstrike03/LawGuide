@@ -24,7 +24,7 @@ class CategoriesINR extends React.Component {
                                 <div className="card-body">
                                     <h5 className="card-title">BASIC RIGHTS</h5>
                                     <p className="card-text">Click on it for knowing the basic rights.</p>
-                                    <a href="#" className="card-link">Card link</a>
+                                    <Link to="/CategoryLaws" className="card-link">Come..</Link>
                                     <a href="#" className="card-link">Another link</a>
                                 </div>
                             </div>
