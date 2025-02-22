@@ -15,6 +15,7 @@ import CarouselCards from './component/CarouselCards';
 import Container3 from './component/Container3';
 import Container4 from './component/Container4';
 import NCard1 from './component/NCard1';
+import Constitutions from './component/Constitutions';  
 import Claws from './component/Claws';
 import CategoriesINR from './component/CategoriesINR';
 import LawDetail from './component/LawDetail';
@@ -27,7 +28,8 @@ function App() {
             <Routes>
                 <Route path="/" element={<><Hero /><Container/><Card1/><OverlapCard/><Container2/><CarouselCards/><Container3/><Container4/></>} />
                 <Route path="/community" element={<Community />} />
-                <Route path="/library" element={<><Library /><Claws/></>} />
+                <Route path="/library" element={<><Library /><Constitutions/></>} />
+                <Route path="/Claws" element={<Claws />} />
                 <Route path="/notice" element={<><Notice /><NCard1/></>} />
                 <Route path="/CategoriesINR" element={<CategoriesINR />} />
                 <Route path="/law/:id" element={<LawDetail />} />  {/* ✅ Add LawDetail Route */}
