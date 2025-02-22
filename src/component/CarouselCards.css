@@ -6,9 +6,22 @@
     border-radius: 20px;
     overflow: hidden;
     transition: transform 0.3s;
+    height: 250px; /* Set a fixed height for the cards */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   
   .card:hover {
     transform: scale(1.05);
   }
-  
+
+  .card-body {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .card-icon{
+    height:100px;
+    width: 100px;
+  }
