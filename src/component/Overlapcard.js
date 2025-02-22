@@ -1,13 +1,14 @@
 import React from 'react';
 import './OverlapCard.css';
+import Ohero from './assets/Untitled.png';
 
 const OverlapCard = () => {
   return (
-    <div className="position-relative overflow-hidden" style={{ height: '500px' }}>
+    <div className="position-relative overflow-hidden" style={{ height: '600px' }}>
       {/* Background Image Card */}
       <div className="card border-0 shadow-lg image-card">
         <img 
-          src="https://via.placeholder.com/800x600" 
+          src={Ohero} 
           className="card-img-top" 
           alt="Background" 
         />
