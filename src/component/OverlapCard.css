@@ -1,31 +1,32 @@
 .image-card {
-    width: 70%;
-    height: 70%;
-    border-radius: 20px;
-    overflow: hidden;
-    transition: all 0.5s ease;
-    transform: translateY(20px);
-    opacity: 0;
-    animation: fadeInUp 0.5s forwards;
+  width: 70%;
+  min-height: 500px; /* Minimum height */
+  max-height: 550px; /* Maximum height */
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  transform: translateY(20px);
+  opacity: 0;
+  animation: fadeInUp 0.5s forwards;
+}
+
+.text-card {
+  position: absolute;
+  bottom: -20px;
+  right: 10%;
+  width: 50%;
+  background: white;
+  border-radius: 20px;
+  transition: all 0.5s ease;
+  transform: translateY(30px);
+  opacity: 0;
+  animation: fadeInUp 0.5s 0.2s forwards;
+  margin-bottom: 50px; /* Adjust the value as needed */
+}
+
+@keyframes fadeInUp {
+  to {
+    transform: translateY(0);
+    opacity: 1;
   }
-  
-  .text-card {
-    position: absolute;
-    bottom: -20px;
-    right: 10%;
-    width: 50%;
-    background: white;
-    border-radius: 20px;
-    transition: all 0.5s ease;
-    transform: translateY(30px);
-    opacity: 0;
-    animation: fadeInUp 0.5s 0.2s forwards;
-    margin-bottom: 50px; /* Adjust the value as needed */
-  }
-  
-  @keyframes fadeInUp {
-    to {
-      transform: translateY(0);
-      opacity: 1;
-    }
-  }
+}
