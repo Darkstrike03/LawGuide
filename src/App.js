@@ -19,7 +19,7 @@ import Constitutions from './component/Constitutions';
 import Claws from './component/Claws';
 import CategoriesINR from './component/CategoriesINR';
 import LawDetail from './component/LawDetail';
-import CategoryLaws from "./components/CategoryLaws";
+import CategoryLaws from "./component/CategoryLaws";
 
 function App() {
     return (
