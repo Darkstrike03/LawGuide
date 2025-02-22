@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 
 const CategoryLaws = () => {
-    const { category } = useParams(); // Get category name from URL
+    const { category } = useParams(); // Get category from URL
     const [laws, setLaws] = useState([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
@@ -10,24 +10,19 @@ const CategoryLaws = () => {
     useEffect(() => {
         const fetchLaws = async () => {
             try {
-                // Fetch the full JSON file from Vercel
-                const response = await fetch("https://learn-sepia-chi.vercel.app/"); 
+                const response = await fetch(`https://learn-sepia-chi.vercel.app/${category}.json`);
                 if (!response.ok) {
-                    throw new Error("Failed to fetch data");
+                    throw new Error(`HTTP error! status: ${response.status}`);
                 }
                 const data = await response.json();
-
-                // Check if category exists in the data
-                if (data[category]) {
-                    setLaws(data[category]); // Set laws for the selected category
-                } else {
-                    throw new Error("Category not found");
+                if (!data[category]) {
+                    throw new Error(`Category ${category} not found in data`);
                 }
-            } catch (err) {
-                setError(err.message);
-            } finally {
-                setLoading(false);
+                setLaws(data[category]);
+            } catch (error) {
+                setError(error.message);
             }
+            setLoading(false);
         };
 
         fetchLaws();
@@ -35,9 +30,9 @@ const CategoryLaws = () => {
 
     return (
         <div>
-            <h2>{category.replace("-", " ")} Laws</h2>
+            <h2>{category} Laws</h2>
             {loading ? (
-                <p>Loading...</p>
+                <p>Loading laws...</p>
             ) : error ? (
                 <p>Error: {error}</p>
             ) : (
