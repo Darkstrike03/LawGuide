@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
+import './CategoryLaws.css'; // Import the CSS file
 
 const CategoryLaws = () => {
     const { category } = useParams(); // Get category from URL
@@ -30,22 +31,34 @@ const CategoryLaws = () => {
 
     return (
         <div>
-            <h2>{category} Laws</h2>
+            <nav aria-label="breadcrumb">
+                <ol className="breadcrumb container mt-4">
+                    <li className="breadcrumb-item"><a href="../Library">Library</a></li>
+                    <li className="breadcrumb-item"><a href="../CategoriesINR">Indian Constitution</a></li>
+                    <li className="breadcrumb-item active" aria-current="page">{category}</li>
+                </ol>
+            </nav>
             {loading ? (
-                <p>Loading laws...</p>
+                <div className="spinner-border" role="status">
+                    <span className="visually-hidden">Loading...</span>
+                </div>
             ) : error ? (
                 <p>Error: {error}</p>
             ) : (
-                <ul>
+                <div className="laws-container mt-4"> {/* Add mt-4 class here */}
                     {laws.map((law, index) => (
-                        <li key={index}>
+                        <div key={index} className="law-card">
                             <h3>{law.law}</h3>
+                            
                             <p><strong>Act:</strong> {law.act}</p>
+                            {law.part && (
+                                <p><strong>Part:</strong> {law.part}</p>
+                            )}
                             <p><strong>Section:</strong> {law.section}</p>
                             <p><strong>Summary:</strong> {law.summary}</p>
-                        </li>
+                        </div>
                     ))}
-                </ul>
+                </div>
             )}
         </div>
     );
