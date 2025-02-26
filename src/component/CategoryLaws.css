@@ -1,0 +1,44 @@
+.spinner {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    margin: 0 auto; /* Center the spinner */
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    content: ">";
+    display: inline-block;
+    padding: 0 0.5rem;
+    color: #6c757d; /* Adjust color as needed */
+}
+
+.laws-container {
+    display: flex;
+    flex-direction: column; /* Stack cards vertically */
+    gap: 16px; /* Space between cards */
+    margin-right: 1.5rem; /* Add margin-top for better visuals */
+    margin-left: 1.5rem; /* Add margin-top for better visuals */
+}
+
+.law-card {
+    border: 1px solid #ccc;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    width: 100%; /* Make cards take full width */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.law-card h3 {
+    color: #3498db; /* Change color of h3 */
+    border-bottom: 1px solid #ccc; /* Add bottom border */
+    padding-bottom: 8px; /* Add padding to bottom */
+}
