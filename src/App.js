@@ -36,7 +36,7 @@ function App() {
                 <Route path="/notice" element={<><Notice /><NCard1/></>} />
                 <Route path="/CategoriesINR" element={<><CategoriesINR /></>} />
                 <Route path="/category/:category" element={<CategoryLaws />} />
-                <Route path="/def" element={<Def />} />
+                
                 <Route path="/PPol" element={<PPol />} />
                 <Route path="/law/:id" element={<LawDetail />} />  {/* ✅ Add LawDetail Route */}
             </Routes>
