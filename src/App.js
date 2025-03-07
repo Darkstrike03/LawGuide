@@ -20,6 +20,8 @@ import Claws from './component/Claws';
 import CategoriesINR from './component/CategoriesINR';
 import LawDetail from './component/LawDetail';
 import CategoryLaws from './component/CategoryLaws';
+import Def from './component/Def';
+import PPol from './component/PPol';
 
 function App() {
     return (
@@ -32,8 +34,10 @@ function App() {
                 <Route path="/library" element={<><Library /><Constitutions/></>} />
                 <Route path="/Claws" element={<Claws />} />
                 <Route path="/notice" element={<><Notice /><NCard1/></>} />
-                <Route path="/CategoriesINR" element={<CategoriesINR />} />
+                <Route path="/CategoriesINR" element={<><CategoriesINR /></>} />
                 <Route path="/category/:category" element={<CategoryLaws />} />
+                <Route path="/def" element={<Def />} />
+                <Route path="/PPol" element={<PPol />} />
                 <Route path="/law/:id" element={<LawDetail />} />  {/* ✅ Add LawDetail Route */}
             </Routes>
             <Footer />
