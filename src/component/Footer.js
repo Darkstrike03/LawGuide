@@ -7,7 +7,7 @@ class Footer extends React.Component {
                 <div className="container-fluid text-center">
                     <p>&copy; {new Date().getFullYear()} LAW GUIDE. All rights reserved.</p>
                     <ul className="list-inline">
-                        <li className="list-inline-item"><a href="#" style={{ color: 'white' }}>Privacy Policy</a></li>
+                        <li className="list-inline-item"><Link to="/PPol" style={{ color: 'white' }}>Privacy Policy</Link></li>
                         <li className="list-inline-item"><a href="#" style={{ color: 'white' }}>Terms of Service</a></li>
                         <li className="list-inline-item"><a href="#" style={{ color: 'white' }}>Contact Us</a></li>
                     </ul>
