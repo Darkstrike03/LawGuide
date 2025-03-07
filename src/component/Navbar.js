@@ -30,10 +30,10 @@ class Navbar extends React.Component {
                                     Links
                                 </a>
                                 <ul className="dropdown-menu">
-                                    <li><a className="dropdown-item" href="#">Action</a></li>
-                                    <li><a className="dropdown-item" href="#">Another action</a></li>
-                                    <li><hr className="dropdown-divider" /></li>
-                                    <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                    <li><Link className="dropdown-item" to="/PPol">Contact Us</Link></li>
+                                    <li><a className="dropdown-item" href="#">Portfolio</a></li>
+                                    <li><a className="dropdown-item" href="#">Terms of Service</a></li>
+                                    <li><a className="dropdown-item" href="#">Privacy Policy</a></li>
                                 </ul>
                             </li>
                             <li className="nav-item">
