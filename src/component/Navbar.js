@@ -16,8 +16,8 @@ class Navbar extends React.Component {
                                 <Link className="nav-link active" aria-current="page" to="/">Home</Link>
                             </li>
                             <li className="nav-item">
-                                {/*<Link className="nav-link" to="/community">Community</Link>*/}
-                                <a className="nav-link disabled" aria-disabled="true">Community</a>
+                                <Link className="nav-link" to="/community">Community</Link>
+                                
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="/library">Library</Link>
