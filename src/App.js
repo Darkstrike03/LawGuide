@@ -23,6 +23,9 @@ import CategoryLaws from './component/CategoryLaws';
 import Def from './component/Def';
 import PPol from './component/PPol';
 import Ndefault from './component/Ndefault';
+import Login from './component/Login';
+import SignUp from './component/SignUp';
+import Profile from './component/Profile';
 
 function App() {
     return (
@@ -39,6 +42,9 @@ function App() {
                 <Route path="/category/:category" element={<CategoryLaws />} />
                 <Route path="/def" element={<Def />} />
                 <Route path="/PPol" element={<PPol />} />
+                <Route path="/Login" element={<Login />} />
+                <Route path="/SignUp" element={<SignUp />} />
+                <Route path="/Profile" element={<Profile />} />
                 <Route path="/law/:id" element={<LawDetail />} />  {/* ✅ Add LawDetail Route */}
             </Routes>
             <Footer />
