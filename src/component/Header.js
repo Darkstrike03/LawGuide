@@ -12,7 +12,7 @@ const Header = () => {
       const { data: { user } } = await supabase.auth.getUser();
       if (user) {
         setIsLoggedIn(true);
-        setProfilePicture(user.user_metadata?.profile_picture || "default1.png");
+        setProfilePicture(user.user_metadata?.profile_picture || "https://via.placeholder.com/30");
       }
     };
     checkUser();
@@ -29,7 +29,7 @@ const Header = () => {
           {isLoggedIn ? (
             <Link to="/profile" style={{ color: 'white' }}>
               <img
-                src={`/ppic/${profilePicture}`}
+                src={profilePicture}
                 alt="Profile"
                 width={30}
                 height={30}
