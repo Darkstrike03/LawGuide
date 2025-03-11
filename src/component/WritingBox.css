@@ -1,0 +1,80 @@
+.card02 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    height: 50%; /* Adjust height to be 100% */
+    border-radius: 10px; /* Curved border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow */
+    padding: 20px; /* Padding for inner content */
+    margin-bottom: 20px; /* Space below the card */
+}
+
+.card02 .writing-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+.card02 .writing-box.expanded {
+    flex-direction: column;
+    cursor: auto;
+    padding: 15px;
+}
+
+.card02.expanded {
+    height: auto; /* Allow the card to expand */
+}
+
+.profile-picture {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.writing-inputs {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.title-area {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    outline: none;
+}
+
+.writing-area {
+    width: 100%;
+    min-height: 40px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+.post-button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 8px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.post-button:hover {
+    background: #0056b3;
+}

@@ -1,0 +1,29 @@
+.card03 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 100%;
+  height: 100%; /* Adjust height to be 100% */
+  border-radius: 10px; /* Curved border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow */
+  padding: 20px; /* Padding for inner content */
+  margin-bottom: 20px; /* Space below the card */
+}
+
+.links-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.links-container a {
+  margin: 5px 0;
+  padding: 10px; /* Padding for links */
+  text-decoration: none; /* Remove underline */
+  color: #333; /* Link color */
+  border-radius: 5px; /* Curved border for links */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.links-container a:hover {
+  background-color: #f0f0f0; /* Background color on hover */
+}
