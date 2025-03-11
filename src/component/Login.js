@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { supabase } from "../supabaseClient";
-import { Link } from "react-router-dom"; // Assuming you're using react-router for navigation
+import { Link } from "react-router-dom";
 import "./Login.css";
 
 const Login = () => {
@@ -16,23 +16,30 @@ const Login = () => {
     setLoading(true);
     setMessage("");
 
-    console.log("Attempting login...");  // Debug log
+    console.log("Attempting login...");
 
     try {
-      let { data: { user }, error } = await supabase.auth.signInWithPassword({
-        email: identifier,
+      let { data: user, error } = await supabase.auth.signInWithPassword({
+        email: identifier.includes("@") ? identifier : null,
         password,
       });
 
-      if (error) {
-        // If login with email fails, try logging in with username
-        const { data: { user: userByUsername }, error: usernameError } = await supabase.auth.signInWithPassword({
-          email: `${identifier}@example.com`, // Assuming a dummy domain for username login
-          password,
-        });
+      if (error && !identifier.includes("@")) {
+        // If email login fails, try username login
+        const { data: userByUsername, error: usernameError } = await supabase
+          .from("profiles")
+          .select("id, email")
+          .eq("username", identifier)
+          .single();
 
-        user = userByUsername;
-        error = usernameError;
+        if (userByUsername) {
+          ({ data: user, error } = await supabase.auth.signInWithPassword({
+            email: userByUsername.email,
+            password,
+          }));
+        } else {
+          error = usernameError;
+        }
       }
 
       if (error) {
