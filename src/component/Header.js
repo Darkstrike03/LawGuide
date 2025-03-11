@@ -12,7 +12,14 @@ const Header = () => {
       const { data: { user } } = await supabase.auth.getUser();
       if (user) {
         setIsLoggedIn(true);
-        setProfilePicture(user.user_metadata?.profile_picture || "https://via.placeholder.com/30");
+        const { data: profileData, error } = await supabase
+          .from('profiles')
+          .select('avatar')
+          .eq('id', user.id)
+          .single();
+        if (!error && profileData) {
+          setProfilePicture(profileData.avatar || "https://via.placeholder.com/30");
+        }
       }
     };
     checkUser();
