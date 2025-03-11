@@ -1,0 +1,44 @@
+/* community.css */
+
+.community-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .community-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .left-card {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+  }
+  
+  .right-card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .writing-box {
+    width: 100%;
+    height: 150px; /* Short height */
+    margin-bottom: 20px;
+  }
+  
+  .posts-container {
+    width: 100%;
+    flex: 1; /* Same length as writing box */
+  }
+  
+  .links-container {
+    width: 100%;
+    height: 100%; /* Long length */
+  }
