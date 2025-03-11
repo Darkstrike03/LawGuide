@@ -4,133 +4,77 @@ import "./Profile.css";
 
 const Profile = () => {
   const [user, setUser] = useState(null);
-  const [displayName, setDisplayName] = useState("");
-  const [profilePicture, setProfilePicture] = useState("");
-  const [profilePictures, setProfilePictures] = useState([]); // Store profile picture options
-  const [reputation, setReputation] = useState(0); // Store user reputation
-  const [loading, setLoading] = useState(false);
+  const [profileData, setProfileData] = useState(null);
+  const [loading, setLoading] = useState(true);
   const [message, setMessage] = useState("");
-  const [isEditing, setIsEditing] = useState(false);
 
-  // Fetch user data
+  const defaultProfileImage = "https://via.placeholder.com/150"; // Placeholder image
+
+  // Fetch authenticated user
   useEffect(() => {
     const fetchUser = async () => {
-      const { data: { user } } = await supabase.auth.getUser();
-      if (user) {
-        setUser(user);
-        setDisplayName(user.user_metadata?.display_name || "");
-        setProfilePicture(user.user_metadata?.profile_picture || "");
-        fetchReputation(user.id); // Fetch reputation from database
+      try {
+        const { data, error } = await supabase.auth.getUser();
+        if (error || !data.user) {
+          setMessage("Error fetching user details.");
+          setLoading(false);
+          return;
+        }
+        setUser(data.user);
+        fetchProfileData(data.user.id);
+      } catch (err) {
+        console.error("Auth error:", err);
+        setMessage("Error fetching user details.");
       }
     };
     fetchUser();
   }, []);
 
-  // Fetch profile picture options from Supabase
-  useEffect(() => {
-    const fetchProfilePictures = async () => {
-      const { data, error } = await supabase.from("profile_pictures").select("url");
-      if (!error) {
-        setProfilePictures(data.map(pic => pic.url)); // Store URLs in state
+  // Fetch user profile data
+  const fetchProfileData = async (userId) => {
+    try {
+      const { data, error } = await supabase.from("profiles").select("*").eq("id", userId).single();
+
+      if (error || !data) {
+        console.error("Profile fetch error:", error);
+        setMessage("Error loading profile.");
+        return;
       }
-    };
-    fetchProfilePictures();
-  }, []);
 
-  // Fetch user reputation
-  const fetchReputation = async (userId) => {
-    const { data, error } = await supabase.from("users").select("reputation").eq("id", userId).single();
-    if (!error) {
-      setReputation(data.reputation);
+      setProfileData(data);
+    } catch (err) {
+      console.error("Profile fetch error:", err);
+      setMessage("Error loading profile.");
+    } finally {
+      setLoading(false);
     }
   };
 
-  // Update profile in Supabase
-  const updateProfile = async () => {
-    setLoading(true);
-    setMessage("");
-
-    const { error } = await supabase.auth.updateUser({
-      data: { profile_picture: profilePicture, display_name: displayName },
-    });
-
-    if (error) {
-      setMessage("Error updating profile: " + error.message);
-    } else {
-      setMessage("Profile updated successfully!");
-    }
-
-    setLoading(false);
-  };
-
-  // Handle logout
+  // Logout function
   const handleLogout = async () => {
     await supabase.auth.signOut();
-    window.location.href = "/login"; // Redirect to login page after logout
+    window.location.href = "/login";
   };
 
   return (
     <div className="profile-container">
-      <div className="profile-tabs">
-        <button
-          className={!isEditing ? "active" : ""}
-          onClick={() => setIsEditing(false)}
-        >
-          View
-        </button>
-        <button
-          className={isEditing ? "active" : ""}
-          onClick={() => setIsEditing(true)}
-        >
-          Edit
-        </button>
-      </div>
-
-      {user ? (
+      {loading ? (
+        <p>Loading profile...</p>
+      ) : profileData ? (
         <>
-          {!isEditing ? (
-            <>
-              <div className="profile-picture">
-                <img src={profilePicture} alt="Profile" />
-              </div>
-              <p>Display Name: {displayName}</p>
-              <p>Reputation: ⭐ {reputation}</p>
-              <button onClick={handleLogout}>Logout</button>
-            </>
-          ) : (
-            <>
-              <input
-                type="text"
-                placeholder="Display Name"
-                value={displayName}
-                onChange={(e) => setDisplayName(e.target.value)}
-              />
-              <div className="profile-picture">
-                <img src={profilePicture} alt="Profile" />
-              </div>
-
-              <div className="profile-picture-selection">
-                {profilePictures.map((pic) => (
-                  <img
-                    key={pic}
-                    src={pic}
-                    alt="Profile Option"
-                    className={profilePicture === pic ? "selected" : ""}
-                    onClick={() => setProfilePicture(pic)}
-                  />
-                ))}
-              </div>
-
-              <button onClick={updateProfile} disabled={loading}>
-                {loading ? "Updating..." : "Update Profile"}
-              </button>
-              <button onClick={() => setIsEditing(false)}>Cancel</button>
-            </>
-          )}
-          <p>{message}</p>
+          <div className="profile-picture">
+            <img src={profileData.avatar || defaultProfileImage} alt="Profile" />
+          </div>
+          <p><strong>Username:</strong> {profileData.username}</p>
+          <p><strong>Registered On:</strong> {new Date(profileData.registered_at).toLocaleString()}</p>
+          <p><strong>Last Activity:</strong> {new Date(profileData.last_activity).toLocaleString()}</p>
+          <p><strong>Reputation:</strong> ⭐ {profileData.reputation}</p>
+          <p><strong>Upvotes:</strong> {profileData.upvotes}</p>
+          <p><strong>Downvotes:</strong> {profileData.downvotes}</p>
+          <button onClick={handleLogout}>Logout</button>
         </>
       ) : (
-        <p>Loading user data...</p>
+        <p>Error loading profile.</p>
       )}
     </div>
   );
