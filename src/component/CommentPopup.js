@@ -1,34 +1,50 @@
 import React, { useState, useEffect } from "react";
 import { supabase } from "../supabaseClient";
-import "./CommentsPopup.css"; // Ensure to create this CSS file for styling
+import "./CommentsPopup.css"; // Ensure this CSS file exists for styling
+import UpvoteDownvote from "./UpvoteDownvote"; // Correct import
 
 const CommentsPopup = ({ postId, onClose }) => {
   const [comments, setComments] = useState([]);
   const [newComment, setNewComment] = useState("");
 
+  // Fetch Comments with User Details
   useEffect(() => {
+    const fetchComments = async () => {
+      console.log("fetchComments called with postId:", postId);
+
+      const { data: hcomments, error } = await supabase
+        .from("community_comments")
+        .select(`
+          id, 
+          post_id, 
+          user_id, 
+          content, 
+          created_at, 
+          upvotes, 
+          downvotes, 
+          profiles(username, avatar, totalrep)  
+        `)
+        .eq("post_id", postId)
+        .order("created_at", { ascending: true });
+
+      if (error) {
+        console.error("Error fetching comments:", error);
+      } else {
+        setComments(hcomments);
+      }
+    };
+
     fetchComments();
   }, [postId]);
 
-  const fetchComments = async () => {
-    const { data: commentsData, error } = await supabase
-      .from("community_comments")
-      .select("*, profiles(username, totalrep)")
-      .eq("post_id", postId)
-      .order("created_at", { ascending: true });
-
-    if (error) {
-      console.error("Error fetching comments:", error);
-      return;
-    }
-    setComments(commentsData);
-  };
-
+  // Handle Adding a New Comment
   const handleAddComment = async () => {
     const { data: { user } } = await supabase.auth.getUser();
     if (!user) return alert("You must be logged in to comment");
 
-    const { error } = await supabase.from("community_comments").insert([
+    console.log("handleAddComment called with:", { userId: user.id, postId, content: newComment });
+
+    const { data, error } = await supabase.from("community_comments").insert([
       {
         user_id: user.id,
         post_id: postId,
@@ -36,33 +52,14 @@ const CommentsPopup = ({ postId, onClose }) => {
         upvotes: 0,
         downvotes: 0,
       },
-    ]);
+    ]).select();
 
     if (error) {
       console.error("Error adding comment:", error);
-      return;
+    } else {
+      setNewComment("");
+      setComments((prev) => [...prev, data[0]]);
     }
-    setNewComment("");
-    fetchComments();
-  };
-
-  const handleVoteComment = async (commentId, voteType) => {
-    const { data: { user } } = await supabase.auth.getUser();
-    if (!user) return alert("You must be logged in to vote");
-
-    const columnToUpdate = voteType === "upvote" ? "upvotes" : "downvotes";
-
-    const { error } = await supabase
-      .from("community_comments")
-      .update({ [columnToUpdate]: supabase.raw(`${columnToUpdate} + 1`) })
-      .eq("id", commentId);
-
-    if (error) {
-      console.error("Voting error:", error);
-      return;
-    }
-
-    fetchComments();
   };
 
   return (
@@ -73,20 +70,22 @@ const CommentsPopup = ({ postId, onClose }) => {
         <div className="comments-list">
           {comments.map((comment) => (
             <div key={comment.id} className="comment">
-              <p><strong>{comment.profiles?.username || "Anonymous"}</strong> ({comment.profiles?.totalrep || 0} rep)</p>
+              <p>
+                <strong>{comment.profiles?.username ?? "Anonymous"}</strong> 
+                ({comment.profiles?.totalrep ?? 0} rep)
+              </p>
               <p>{comment.content}</p>
               <span>{new Date(comment.created_at).toLocaleString()}</span>
-              <div className="comment-voting">
-                <button className="vote-btn upvote" onClick={() => handleVoteComment(comment.id, "upvote")}>
-                  👍 {comment.upvotes}
-                </button>
-                <button className="vote-btn downvote" onClick={() => handleVoteComment(comment.id, "downvote")}>
-                  👎 {comment.downvotes}
-                </button>
-              </div>
+
+              {/* Use UpvoteDownvote Component */}
+              {/*<UpvoteDownvote 
+                itemId={comment.id} 
+                itemType="comment" // Specifies it's a comment
+              />*/}
             </div>
           ))}
         </div>
+
         <div className="comment-input">
           <input
             type="text"
