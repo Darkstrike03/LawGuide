@@ -55,6 +55,7 @@ const WritingBox = () => {
       setPostContent("");
       setPostTitle("");
       setIsExpanded(false); // Collapse after posting
+      window.location.reload(); // Refresh page to show new post
     }
   };
 
