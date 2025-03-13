@@ -1,104 +1,121 @@
 import { supabase } from "../supabaseClient";
 
-// Function to handle voting
+// Voting logic for posts
 export const voteOnPost = async (userId, postId, voteType) => {
   if (!userId || !postId || !voteType) return { error: "Invalid request" };
 
-  const { data: existingVote, error: voteError } = await supabase
+  console.log("voteOnPost called with:", { userId, postId, voteType });
+
+  const { data: existingVote, error: existingVoteError } = await supabase
     .from("community_votes")
     .select("*")
     .eq("user_id", userId)
     .eq("post_id", postId)
     .single();
 
-  if (voteError && voteError.code !== "PGRST116") {
-    console.error("Vote fetch error:", voteError);
-    return { error: "Error checking vote" };
+  if (existingVoteError) {
+    console.error("Error fetching existing vote:", existingVoteError);
   }
 
   if (existingVote) {
     if (existingVote.vote_type === voteType) {
-      return { message: "Already voted this way" };
+      await supabase.from("community_votes").delete().eq("id", existingVote.id);
     } else {
-      await supabase
-        .from("community_votes")
-        .update({ vote_type: voteType })
-        .eq("id", existingVote.id);
+      await supabase.from("community_votes").update({ vote_type: voteType }).eq("id", existingVote.id);
     }
   } else {
-    await supabase.from("community_votes").insert([
-      { user_id: userId, post_id: postId, vote_type: voteType },
-    ]);
+    await supabase.from("community_votes").insert([{ user_id: userId, post_id: postId, vote_type: voteType }]);
   }
 
-  return await updatePostVotes(postId);
+  return await updatePostVoteCounts(postId);
 };
 
-// Function to add a new comment
-export const addComment = async (postId, userId, content) => {
-  if (!postId || !userId || !content) return { error: "Invalid request" };
-
-  const { data, error } = await supabase.from("community_comments").insert([
-    {
-      post_id: postId,
-      user_id: userId,
-      content: content,
-    },
-  ]);
-
-  if (error) {
-    console.error("Error adding comment:", error);
-    return { error: "Failed to add comment" };
-  }
-
-  return { message: "Comment added successfully", data };
-};
-
-// Function to update votes and reputation
-export const updatePostVotes = async (postId) => {
-  const { data: upvotes } = await supabase
+// Updating post vote counts
+export const updatePostVoteCounts = async (postId) => {
+  const { count: upvoteCount, error: upvoteError } = await supabase
     .from("community_votes")
-    .select("*")
+    .select("*", { count: "exact" })
     .eq("post_id", postId)
     .eq("vote_type", "upvote");
 
-  const { data: downvotes } = await supabase
+  if (upvoteError) {
+    console.error("Error fetching upvote count:", upvoteError);
+  }
+
+  const { count: downvoteCount, error: downvoteError } = await supabase
     .from("community_votes")
-    .select("*")
+    .select("*", { count: "exact" })
     .eq("post_id", postId)
     .eq("vote_type", "downvote");
 
-  const totalUpvotes = upvotes?.length || 0;
-  const totalDownvotes = downvotes?.length || 0;
+  if (downvoteError) {
+    console.error("Error fetching downvote count:", downvoteError);
+  }
 
   await supabase
     .from("community_post")
-    .update({ upvotes: totalUpvotes, downvotes: totalDownvotes })
+    .update({ upvotes: upvoteCount || 0, downvotes: downvoteCount || 0 })
     .eq("id", postId);
+  
+  return { message: "Post votes updated successfully" };
+};
 
-  const { data: postData } = await supabase
-    .from("community_post")
-    .select("user_id")
-    .eq("id", postId)
+// Voting logic for comments
+export const voteOnComment = async (userId, commentId, voteType) => {
+  if (!userId || !commentId || !voteType) return { error: "Invalid request" };
+
+  console.log("voteOnComment called with:", { userId, commentId, voteType });
+
+  const { data: existingVote, error: existingVoteError } = await supabase
+    .from("community_votes")
+    .select("*")
+    .eq("user_id", userId)
+    .eq("comment_id", commentId)
     .single();
 
-  if (!postData) return { error: "Post not found" };
+  if (existingVoteError) {
+    console.error("Error fetching existing vote:", existingVoteError);
+  }
 
-  const postOwnerId = postData.user_id;
+  if (existingVote) {
+    if (existingVote.vote_type === voteType) {
+      await supabase.from("community_votes").delete().eq("id", existingVote.id);
+    } else {
+      await supabase.from("community_votes").update({ vote_type: voteType }).eq("id", existingVote.id);
+    }
+  } else {
+    await supabase.from("community_votes").insert([{ user_id: userId, comment_id: commentId, vote_type: voteType }]);
+  }
 
-  const { data: userPosts } = await supabase
-    .from("community_post")
-    .select("upvotes, downvotes")
-    .eq("user_id", postOwnerId);
+  return await updateCommentVoteCounts(commentId);
+};
 
-  const totalUserUpvotes = userPosts.reduce((acc, post) => acc + post.upvotes, 0);
-  const totalUserDownvotes = userPosts.reduce((acc, post) => acc + post.downvotes, 0);
-  const totalReputation = Math.floor(totalUserUpvotes / 10);
+// Updating comment vote counts
+export const updateCommentVoteCounts = async (commentId) => {
+  const { count: upvoteCount, error: upvoteError } = await supabase
+    .from("community_votes")
+    .select("*", { count: "exact" })
+    .eq("comment_id", commentId)
+    .eq("vote_type", "upvote");
+
+  if (upvoteError) {
+    console.error("Error fetching upvote count:", upvoteError);
+  }
+
+  const { count: downvoteCount, error: downvoteError } = await supabase
+    .from("community_votes")
+    .select("*", { count: "exact" })
+    .eq("comment_id", commentId)
+    .eq("vote_type", "downvote");
+
+  if (downvoteError) {
+    console.error("Error fetching downvote count:", downvoteError);
+  }
 
   await supabase
-    .from("profiles")
-    .update({ totalup: totalUserUpvotes, totaldown: totalUserDownvotes, totalrep: totalReputation })
-    .eq("id", postOwnerId);
-
-  return { message: "Vote updated successfully", totalUpvotes, totalDownvotes, totalReputation };
+    .from("community_comments")
+    .update({ upvotes: upvoteCount || 0, downvotes: downvoteCount || 0 })
+    .eq("id", commentId);
+  
+  return { message: "Comment votes updated successfully" };
 };
