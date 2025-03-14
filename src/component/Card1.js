@@ -5,7 +5,7 @@ class Card1 extends React.Component {
     render() {
         return (
             <div className="d-flex justify-content-center my-4">
-                <div className="card text-center shadow-lg border-0" style={{ width: '50rem' }}>
+                <div className="card text-center shadow-lg border-0 card-responsive">
                     <div className="card-header bg-primary text-white fw-bold fs-5">
                         🌟 Featured Highlight
                     </div>
