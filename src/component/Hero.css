@@ -1,5 +1,5 @@
 .carousel-inner {
-    width: 800px;
+    width: 50rem; /* 800px */
     height: auto;
     margin: 0 auto; /* Center the carousel */
 }
@@ -8,4 +8,17 @@
     width: auto;
     height: auto;
     object-fit: cover; /* Ensure the image covers the entire area */
+}
+
+/* Media query for small devices */
+@media (max-width: 37.5rem) { /* 600px */
+    .carousel-inner {
+        width: 25rem; /* 400px */
+        height: auto;
+    }
+
+    .carousel-inner img {
+        width: 100%;
+        height: auto;
+    }
 }
