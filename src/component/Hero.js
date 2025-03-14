@@ -9,13 +9,13 @@ class Hero extends React.Component {
             <div id="carouselExampleRide" className="carousel slide" data-bs-ride="true">
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <img src={hero} style={{ width: '800px', height: '600px' }} className="d-block w-100" alt="..." />
+                <img src={hero} className="d-block w-100" alt="..." />
               </div>
               <div className="carousel-item">
-                <img src={hero1} style={{ width: '800px', height: '600px' }} className="d-block w-100" alt="..." />
+                <img src={hero1} className="d-block w-100" alt="..." />
               </div>
               <div className="carousel-item">
-                <img src={hero2} style={{ width: '800px', height: '600px' }} className="d-block w-100" alt="..." />
+                <img src={hero2} className="d-block w-100" alt="..." />
               </div>
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
