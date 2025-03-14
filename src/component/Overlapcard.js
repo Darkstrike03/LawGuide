@@ -4,7 +4,7 @@ import Ohero from './assets/Untitled.png';
 
 const OverlapCard = () => {
   return (
-    <div className="position-relative overflow-hidden" style={{ height: '600px' }}>
+    <div className="position-relative overflow-hidden box-size">
       {/* Background Image Card */}
       <div className="card border-0 shadow-lg image-card">
         <img 
