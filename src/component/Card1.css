@@ -1,15 +1,42 @@
 .custom-btn {
-    padding: 10px 20px;
+    padding: 0.625rem 1.25rem; /* 10px 20px */
     border-radius: 50px;
-    font-size: 1.2em;
+    font-size: 1.2rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: auto; /* Ensure the button width is auto */
-    max-width: 200px; /* Set a maximum width for the button */
-    white-space: nowrap; /* Prevent text from wrapping */
+    width: auto;
+    max-width: 12.5rem; /* 200px */
+    white-space: nowrap;
 }
 
 .custom-btn svg {
-    margin-left: 10px;
+    margin-left: 0.625rem; /* 10px */
+}
+
+.card-responsive {
+    width: 100%;
+    max-width: 50rem;
+}
+
+@media (max-width: 37.5rem) { /* 600px */
+    .card-responsive {
+        padding: 0.1rem;
+    }
+
+    .card-header {
+        font-size: 1rem;
+    }
+
+    .card-title {
+        font-size: 1rem;
+    }
+
+    .card-text {
+        font-size: 0.84rem;
+    }
+
+    .custom-btn {
+        font-size: 0.875rem;
+    }
 }
