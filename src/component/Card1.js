@@ -4,19 +4,19 @@ import './Card1.css';
 class Card1 extends React.Component {
     render() {
         return (
-            <div className="d-flex justify-content-center my-4">
-                <div className="card text-center shadow-lg border-0 card-responsive">
-                    <div className="card-header bg-primary text-white fw-bold fs-5">
+            <div className="card1-container">
+                <div className="card1">
+                    <div className="card1-header">
                         🌟 Featured Highlight
                     </div>
-                    <div className="card-body">
-                        <h5 className="card-title fs-4 text-dark">Explore the Indian Legal System</h5>
-                        <p className="card-text text-muted">
+                    <div className="card1-body">
+                        <h5 className="card1-title">Explore the Indian Legal System</h5>
+                        <p className="card1-text">
                             Gain insights into the Indian Constitution, criminal and civil laws, and understand your legal rights. 
                             Our platform simplifies complex legal information for everyone.
                         </p>
                         <div className="d-flex justify-content-center my-4">
-                            <a href="#" className="btn btn-primary custom-btn d-flex align-items-center">
+                            <a href="#" className="card1-btn">
                                 <span className="me-2">Learn More</span>
                                 <svg fill="#ffffff" height="24px" width="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M0 0h24v24H0z" fill="none"/>
