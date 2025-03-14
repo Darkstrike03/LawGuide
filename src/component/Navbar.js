@@ -43,13 +43,14 @@ class Navbar extends React.Component {
                         <form className="d-flex" role="search">
                             <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
                             <button className="btn btn-outline-success" type="submit">Search</button>
-                        </form>
-                        <button className="btn btn-outline-success" type="more" style={{ marginLeft: '10px' }}>
+                            <button className="btn btn-outline-success" type="more" style={{ marginLeft: '10px' }}>
                             <svg fill="#000000" height="24px" width="24px" id="Layer_1" data-name="Layer 1"
                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
                                 <path className="cls-1" d="M4.732,7.95335,6.90908,2h3.63639L8.36364,7.01316h2.90911L4.72725,14,6.93656,7.95135Z" />
                             </svg>
                         </button>
+                        </form>
+
                     </div>
                 </div>
             </nav>
