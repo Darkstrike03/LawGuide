@@ -8,6 +8,13 @@
   transform: translateY(20px);
   opacity: 0;
   animation: fadeInUp 0.5s forwards;
+  position: relative; /* Ensure positioning context for text-card */
+}
+
+.image-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image covers the entire area */
 }
 
 .text-card {
@@ -23,10 +30,31 @@
   animation: fadeInUp 0.5s 0.2s forwards;
   margin-bottom: 50px; /* Adjust the value as needed */
 }
-
+.box-size{
+  min-height: 600px;
+}
 @keyframes fadeInUp {
   to {
     transform: translateY(0);
     opacity: 1;
+  }
+}
+
+/* Media query for small devices */
+@media (max-width: 600px) {
+  .box-size{
+    min-height: 350px;
+  }
+  .image-card {
+    width: 90%;
+    min-height: 250px; /* Adjusted minimum height */
+    max-height: 350px; /* Adjusted maximum height */
+  }
+
+  .text-card {
+    bottom: -40px;
+    right: 5%;
+    width: 75%;
+    margin-bottom: 20px; /* Adjust the value as needed */
   }
 }
