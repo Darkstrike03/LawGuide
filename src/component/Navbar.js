@@ -30,10 +30,10 @@ class Navbar extends React.Component {
                                     Links
                                 </a>
                                 <ul className="dropdown-menu">
-                                    <li><Link className="dropdown-item" to="/PPol" >Contact Us</Link></li>
-                                    <li><a className="dropdown-item" href="#">Portfolio</a></li>
-                                    <li><a className="dropdown-item" href="#">Terms of service</a></li>
-                                    <li><a className="dropdown-item" href="#">Privacy Policy</a></li>
+                                    <li><Link className="dropdown-item" href="https://mail.google.com/mail/?view=cm&fs=1&to=etherealarchives017@gmail.com&su=Contact+Us&body=Hello%2C+I+have+a+question+about+your+website." 
+       target="_blank" >Contact Us</Link></li>
+                                    <li><a className="dropdown-item" to="/terms-of-service">Terms of service</a></li>
+                                    <li><a className="dropdown-item" to="/privacy-policy">Privacy Policy</a></li>
                                 </ul>
                             </li>
                             <li className="nav-item">
