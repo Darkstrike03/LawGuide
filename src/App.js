@@ -26,6 +26,8 @@ import Ndefault from './component/Ndefault';
 import Login from './component/Login';
 import SignUp from './component/SignUp';
 import Profile from './component/Profile';
+import PrivacyPolicy from './component/PrivacyPolicy';
+import TermsOfService from './component/TermsOfService';
 
 function App() {
     return (
@@ -33,6 +35,7 @@ function App() {
             <Header />
             <Navbar />
             <Routes>
+            <>
                 <Route path="/" element={<><Hero /><Container/><Card1/><OverlapCard/><Container2/><CarouselCards/><Container3/><Container4/></>} />
                 <Route path="/community" element={<Community />} />
                 <Route path="/library" element={<><Library /><Constitutions/></>} />
@@ -46,6 +49,9 @@ function App() {
                 <Route path="/SignUp" element={<SignUp />} />
                 <Route path="/Profile" element={<Profile />} />
                 <Route path="/law/:id" element={<LawDetail />} />  {/* ✅ Add LawDetail Route */}
+                <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+                <Route path="/terms-of-service" element={<TermsOfService />} />
+            </>
             </Routes>
             <Footer />
         </Router>
