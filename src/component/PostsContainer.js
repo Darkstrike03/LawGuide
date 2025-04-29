@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { supabase } from "../supabaseClient";
 import CommentPopup from "./CommentPopup";
 import UpvoteDownvote from "./UpvoteDownvote";
+import FormattedText from "./FormattedText";
 import "./PostsContainer.css";
 
 const PostsContainer = () => {
@@ -71,7 +72,7 @@ const PostsContainer = () => {
 
               <div className="post-content">
                 <h3 className="post-title">{post.title}</h3>
-                <p className="post-text">{post.content}</p>
+                <FormattedText text={post.content} />
               </div>
 
               <div className="post-actions">
