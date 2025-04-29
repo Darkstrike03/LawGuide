@@ -1,6 +1,6 @@
 import React from 'react';
 import Fo from './assets/oops.png';
-import './Ndefault.scss'; // Import the CSS file for additional styling
+import './Ndefault.css'; // Import the CSS file for additional styling
 
 class Ndefault extends React.Component {
     render() {
