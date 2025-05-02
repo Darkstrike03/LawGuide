@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
+import { supabase } from "../supabaseClient"; // Ensure this is the correct path to your Supabase client
 import './CategoryLaws.css';
 
 const CategoryLaws = () => {
@@ -10,22 +11,31 @@ const CategoryLaws = () => {
 
     useEffect(() => {
         const fetchLaws = async () => {
+            setLoading(true);
+            setError(null);
+
             try {
-                const response = await fetch(`https://learn-sepia-chi.vercel.app/${category}.json`);
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
-                }
-                const data = await response.json();
-                
-                if (!data[category]) {
-                    throw new Error(`Category ${category} not found in data`);
+                const { data, error } = await supabase
+                    .from("database") // Replace "database" with your actual table name
+                    .select("*")
+                    .ilike("Category", category);
+
+                console.log("Fetched data:", data); // Log the fetched data
+
+                if (error) {
+                    throw new Error(error.message);
                 }
 
-                setLaws(data[category]);
+                if (!data || data.length === 0) {
+                    throw new Error(`No laws found for category: ${category}`);
+                }
+
+                setLaws(data);
             } catch (error) {
                 setError(error.message);
+            } finally {
+                setLoading(false);
             }
-            setLoading(false);
         };
 
         fetchLaws();
@@ -48,22 +58,41 @@ const CategoryLaws = () => {
                 <p>Error: {error}</p>
             ) : (
                 <div className="laws-container mt-4">
-                    {laws.map((law, index) => (
-                        <div key={index} className="law-card">
-                            <h3>{law.title || law.law}</h3> {/* Handle different key names */}
-                            
-                            {law.article && <p><strong>Article:</strong> {law.article}</p>}
-                            {law.articles && law.articles.map((art, i) => (
-                                <div key={i}>
-                                    <p><strong>Article {art.article}:</strong> {art.description}</p>
-                                </div>
-                            ))}
-                            {law.act && <p><strong>Act:</strong> {law.act}</p>}
-                            {law.part && <p><strong>Part:</strong> {law.part}</p>}
-                            {law.section && <p><strong>Section:</strong> {law.section}</p>}
-                            <p><strong>Summary:</strong> {law.description || law.summary}</p>
-                        </div>
-                    ))}
+                    {laws.map((law) => {
+                        // Collect all keys (column names) that are null
+                        const nullKeys = Object.keys(law).filter((key) => !law[key]);
+
+                        return (
+                            <div key={law.ID} className="law-card">
+                                <h3>{law.Title}</h3>
+                                {law.Article && <p><strong>Article:</strong> {law.Article}</p>}
+                                {law.Section && <p><strong>Section:</strong> {law.Section}</p>}
+                                {law.Part && <p><strong>Part:</strong> {law.Part}</p>}
+                                {law.Chapter && <p><strong>Chapter:</strong> {law.Chapter}</p>}
+                                {law["Act Name"] && <p><strong>Act Name:</strong> {law["Act Name"]}</p>}
+                                {law["IPC Text"] && <p><strong>IPC Text:</strong> {law["IPC Text"]}</p>}
+                                {law["IPC Summary"] && <p><strong>Summary:</strong> {law["IPC Summary"]}</p>}
+                                {law["BNS Section"] && <p><strong>BNS Section:</strong> {law["BNS Section"]}</p>}
+                                {law["BNS Title"] && <p><strong>BNS Title:</strong> {law["BNS Title"]}</p>}
+                                <p><strong>Bailable/Non-bailable:</strong> {law["Bailable/Non-bailable"] || "No data available"}</p>
+                                {law["Real-life Example"] && (
+                                    <p><strong>Real-life Example:</strong> {law["Real-life Example"]}</p>
+                                )}
+                                {law["Expert Opinion"] && (
+                                    <p><strong>Expert Opinion:</strong> {law["Expert Opinion"]}</p>
+                                )}
+
+                                {/* Display null keys at the end */}
+                                {nullKeys.length > 0 && (
+                                    <div className="null-keys">
+                                        <p style={{ fontSize: "0.8rem", color: "gray" }}>
+                                            Missing Data: {nullKeys.join(", ")}
+                                        </p>
+                                    </div>
+                                )}
+                            </div>
+                        );
+                    })}
                 </div>
             )}
         </div>
