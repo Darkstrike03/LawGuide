@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import '../styles/CategoriesINR.css';
 
 class CategoriesINR extends React.Component {
     render() {
