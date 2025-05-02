@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/CategoriesINR.css';
+import KnowYourRightsIcon from './assets/icons/justice.svg';
 
 class CategoriesINR extends React.Component {
     render() {
@@ -24,10 +25,11 @@ class CategoriesINR extends React.Component {
                         {/* Second Card */}
                         <div className="col-md-4 mb-4">
                             <div className="card" style={{ width: '18rem' }}>
+                            <img src={KnowYourRightsIcon} alt="Know Your Rights" className="card-icon" />
                                 <div className="card-body">
-                                    <h5 className="card-title">Constituional Rights</h5>
-                                    <p className="card-text">The rights that people of india have</p>
-                                    <Link to="/category/domestic-rights" className="card-link">Come..</Link>
+                                    <h5 className="card-title">Criminal Laws</h5>
+                                    <p className="card-text">The punishment and rights of a criminal.</p>
+                                    <Link to="/category/criminal" className="card-link">Come..</Link>
                                     <a href="#" className="card-link">Another link</a>
                                 </div>
                             </div>
