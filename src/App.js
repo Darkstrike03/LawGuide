@@ -29,7 +29,7 @@ import Profile from './component/Profile';
 import PrivacyPolicy from './component/PrivacyPolicy';
 import TermsOfService from './component/TermsOfService';
 import Lawai from './component/Lawai';
-import AllLaws from './component/AllLaws'; // Import the AllLaws component
+
 
 function App() {
     return (
@@ -46,7 +46,7 @@ function App() {
                 <Route path="/lawai" element={<Lawai/>} />
                 <Route path="/CategoriesINR" element={<><CategoriesINR /></>} />
                 <Route path="/categoriesinr" element={<CategoriesINR />} />
-                <Route path="/all-laws" element={<AllLaws />} /> {/* Add this route */}
+                
                 <Route path="/category/:category" element={<CategoryLaws />} />
                 <Route path="/def" element={<Def />} />
                 <Route path="/PPol" element={<PPol />} />
