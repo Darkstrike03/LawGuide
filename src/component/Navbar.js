@@ -86,9 +86,9 @@ class Navbar extends React.Component {
                                     </ul>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link disabled" aria-disabled="true">
+                                    <Link className="nav-link" to="/Lawai">
                                         law.A.I
-                                    </a>
+                                    </Link>
                                 </li>
                             </ul>
                             <form className="d-flex" role="search" onClick={this.toggleSearch}>
