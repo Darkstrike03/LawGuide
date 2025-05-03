@@ -1,10 +1,18 @@
 import { useState } from "react";
+import ReactMarkdown from "react-markdown"; // Import react-markdown
 import "./lawai.css"; // Import the external CSS file
 
 export default function LawAI() {
   const [input, setInput] = useState("");
   const [chat, setChat] = useState([]);
   const [loading, setLoading] = useState(false);
+  const [suggestions, setSuggestions] = useState([
+    "What are my fundamental rights?",
+    "What is the punishment for theft in India?",
+    "How can I file a consumer complaint?",
+    "What are the laws protecting the environment?",
+    "What are the rights of employees under labor laws?",
+  ]);
 
   const askBot = async () => {
     if (!input.trim()) return;
@@ -28,9 +36,8 @@ export default function LawAI() {
               content: `
               You are LawAI, a legal assistant chatbot focused primarily on Indian law.
               Always respond in clear, simple, and human-friendly language.
-              If the user's country or legal jurisdiction is unclear, ask them politely before answering.
-              Avoid explaining what you're doing or how you're going to respond.
-              Only reply with what a helpful legal assistant would say in a normal conversation.
+              Use Markdown formatting to make your responses visually appealing.
+              Use bullet points, bold, italics, and emojis where appropriate.
               `.trim(),
             },
             ...updatedChat,
@@ -60,16 +67,29 @@ export default function LawAI() {
       <h2 className="chat-title">LawAI Chatbot</h2>
       <div className="chat-box">
         {chat.length === 0 && !loading && (
-          <div className="chat-placeholder">
-            <strong>Ask Anything</strong>
-          </div>
+          <>
+            <div className="chat-placeholder">
+              <strong>Ask Anything</strong>
+            </div>
+            <div className="suggestions">
+              <p>Here are some questions you can ask:</p>
+              <ul>
+                {suggestions.map((question, index) => (
+                  <li key={index} onClick={() => setInput(question)}>
+                    {question}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </>
         )}
         {chat.map((msg, index) => (
           <div
             key={index}
             className={`chat-bubble ${msg.role === "user" ? "user-bubble" : "assistant-bubble"}`}
           >
-            <strong>{msg.role === "user" ? "You" : "LawAI"}:</strong> {msg.content}
+            <strong>{msg.role === "user" ? "You" : "LawAI"}:</strong>
+            <ReactMarkdown>{msg.content}</ReactMarkdown> {/* Render Markdown */}
           </div>
         ))}
         {loading && <div className="loading-animation">Typing...</div>}
