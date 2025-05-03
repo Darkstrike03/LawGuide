@@ -39,9 +39,9 @@ class CategoriesINR extends React.Component {
                             <div className="card" style={{ width: '18rem' }}>
                                 
                                 <div className="card-body">
-                                    <h5 className="card-title">BASIC RIGHTS</h5>
-                                    <p className="card-text">Click on it for knowing the basic rights.</p>
-                                    <Link to="/category/basic-rights" className="card-link">Come..</Link>
+                                    <h5 className="card-title">Constitutional Laws</h5>
+                                    <p className="card-text">Fundamental rights of citiens of India</p>
+                                    <Link to="/category/Constitutional Law" className="card-link">Come..</Link>
                                     <a href="#" className="card-link">Another link</a>
                                 </div>
                             </div>
@@ -52,10 +52,9 @@ class CategoriesINR extends React.Component {
                             <div className="card" style={{ width: '18rem' }}>
                                 
                                 <div className="card-body">
-                                    <h5 className="card-title">Fundamental Rights</h5>
-                                    <p className="card-text">check out the fundamental rights</p>
-                                    <Link to="/category/fundamental_rights" className="card-link">Come..</Link>
-                                    <Link to="/category/honorable_mentions" className="card-link">more..</Link>
+                                    <h5 className="card-title">Family Laws</h5>
+                                    <p className="card-text">check out the family laws</p>
+                                    <Link to="/category/Family Law" className="card-link">Come..</Link>
                                 </div>
                             </div>
                         </div>
@@ -65,10 +64,10 @@ class CategoriesINR extends React.Component {
                             <div className="card" style={{ width: '18rem' }}>
                                 
                                 <div className="card-body">
-                                    <h5 className="card-title">Card title</h5>
-                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" className="card-link">Card link</a>
-                                    <a href="#" className="card-link">Another link</a>
+                                    <h5 className="card-title">Labour Laws</h5>
+                                    <p className="card-text">Check out the Labour Laws protecting the rights of the </p>
+                                    <Link to="/category/Labour Law" className="card-link">Come..</Link>
+                                </div>
                                 </div>
                             </div>
                         </div>
