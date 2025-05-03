@@ -59,6 +59,11 @@ export default function LawAI() {
     <div className="chat-container">
       <h2 className="chat-title">LawAI Chatbot</h2>
       <div className="chat-box">
+        {chat.length === 0 && !loading && (
+          <div className="chat-placeholder">
+            <strong>Ask Anything</strong>
+          </div>
+        )}
         {chat.map((msg, index) => (
           <div
             key={index}
