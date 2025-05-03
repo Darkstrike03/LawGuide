@@ -44,6 +44,25 @@
   max-width: 70%;
   word-wrap: break-word;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.chat-bubble strong {
+  font-weight: bold;
+}
+
+.chat-bubble em {
+  font-style: italic;
+}
+
+.chat-bubble ul {
+  padding-left: 20px;
+  margin: 10px 0;
+}
+
+.chat-bubble li {
+  margin-bottom: 5px;
 }
 
 .user-bubble {
@@ -95,4 +114,29 @@
   align-self: flex-start;
   font-style: italic;
   color: #888;
+}
+
+.suggestions {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #555;
+}
+
+.suggestions ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.suggestions li {
+  cursor: pointer;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s ease;
+}
+
+.suggestions li:hover {
+  background-color: #e2f7d9;
 }
