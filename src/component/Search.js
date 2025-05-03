@@ -8,17 +8,16 @@ const Search = ({ onClose }) => {
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState(null);
 
-    const handleSearch = async (e) => {
-        e.preventDefault();
+    const handleSearch = async (searchQuery) => {
         setLoading(true);
         setError(null);
 
         try {
             // Fetch results from the database based on the Keywords column
             const { data, error } = await supabase
-                .from("database") // Replace "laws" with your actual table name
+                .from("database") // Replace "database" with your actual table name
                 .select("*")
-                .ilike("Keywords", `%${query}%`); // Perform a case-insensitive search
+                .ilike("Keywords", `%${searchQuery}%`); // Perform a case-insensitive search
 
             if (error) {
                 throw new Error(error.message);
@@ -32,6 +31,11 @@ const Search = ({ onClose }) => {
         }
     };
 
+    const handleTagClick = (tag) => {
+        setQuery(tag); // Update the query input with the tag
+        handleSearch(tag); // Trigger a search with the tag
+    };
+
     return (
         <div className="search-container">
             <div className="search-header">
@@ -40,7 +44,13 @@ const Search = ({ onClose }) => {
                     ✖
                 </button>
             </div>
-            <form onSubmit={handleSearch} className="search-form">
+            <form
+                onSubmit={(e) => {
+                    e.preventDefault();
+                    handleSearch(query);
+                }}
+                className="search-form"
+            >
                 <input
                     type="text"
                     className="search-input"
@@ -69,6 +79,20 @@ const Search = ({ onClose }) => {
                             )}
                             {law["Expert Opinion"] && (
                                 <p><strong>Expert Opinion:</strong> {law["Expert Opinion"]}</p>
+                            )}
+                            {law.Tags && (
+                                <div className="tags">
+                                    <strong>Tags:</strong>
+                                    {law.Tags.split(",").map((tag, index) => (
+                                        <button
+                                            key={index}
+                                            className="tag-button"
+                                            onClick={() => handleTagClick(tag.trim())}
+                                        >
+                                            {tag.trim()}
+                                        </button>
+                                    ))}
+                                </div>
                             )}
                         </div>
                     ))
