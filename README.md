@@ -1,4 +1,4 @@
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6677a31a-db32-4d48-9836-8a300bc8beb7" /><img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/bbe30676-b1a0-4f1a-9ded-47078f2cb8af" /># LawGuide ⚖️
+# LawGuide ⚖️
 
 **LawGuide** is a digital library of global constitutions and legal frameworks. The goal of this project is to democratize legal knowledge by providing a centralized, accessible platform where individuals can explore the laws of different countries and better understand their fundamental rights.
 
