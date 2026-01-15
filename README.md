@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6677a31a-db32-4d48-9836-8a300bc8beb7" /><img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/bbe30676-b1a0-4f1a-9ded-47078f2cb8af" /># LawGuide ⚖️
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**LawGuide** is a digital library of global constitutions and legal frameworks. The goal of this project is to democratize legal knowledge by providing a centralized, accessible platform where individuals can explore the laws of different countries and better understand their fundamental rights.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📸 Screenshots
 
-### `npm start`
+![Library Page](./library.png) 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📌 Features
 
-### `npm test`
+* **International Repository:** A structured database designed to hold constitutional texts from multiple nations.
+* **Rights Awareness:** Focused on making legal documents searchable so users can quickly find information regarding their civil rights.
+* **Clean Reading Experience:** A minimalist UI designed to make heavy legal text easy to read and navigate.
+* **Scalable Schema:** A backend architecture built to expand as more countries and legal documents are added.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠 Tech Stack
 
-### `npm run build`
+* **Frontend:** React.js (Functional Components & Hooks)
+* **Database:** Supabase (PostgreSQL)
+* **Styling:** Custom CSS3 (Responsive Design)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Project Status: Work in Progress
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+LawGuide is an ongoing project. While the core infrastructure and initial library are functional, future updates will include:
+* **AI Summaries:** Using LLMs to simplify complex legal jargon into plain language.
+* **Cross-Country Comparison:** A tool to compare how different constitutions address specific topics (e.g., Freedom of Speech).
+* **Dark Mode:** Optimized for long-form reading in low-light environments.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🏗 Technical Challenges & Learnings
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* **Complex Data Modeling:** Laws are hierarchical (Parts > Chapters > Articles). I designed a relational database schema in Supabase to maintain this structure across diverse international formats.
+* **Text Heavy UI:** Solved the challenge of "text fatigue" by implementing specific typography rules and whitespace management in CSS to ensure the laws remain readable.
+* **State Management:** Handled dynamic data fetching from Supabase based on user selection to ensure a fast, single-page application experience.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🤝 Contributing & Learning
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+I am actively looking for contributors who are passionate about legal transparency and open data.
 
-## Learn More
+**How you can help:**
+* **Data Integration:** Help in sourcing and formatting legal texts for new countries.
+* **Feature Development:** Improving search filters and navigation logic.
+* **Bug Reports:** Feel free to open an issue if you find a bug in the current build.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📜 License
 
-### Code Splitting
+This project is licensed under the **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* **Learning & Contribution:** You are welcome to use this code for educational purposes or to contribute to the project.
+* **Non-Commercial:** This project and its source code may not be used for commercial purposes.
+* **Attribution:** Please credit the original author if you reference this work.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
