@@ -1,0 +1,16 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+	<style>
+		.s0 { fill: #0f1c2e } 
+		.s1 { fill: none;stroke: #e07b39;stroke-linecap: round;stroke-linejoin: round;stroke-width: 2.4 } 
+	</style>
+	<g id="Layer 1">
+		<path class="s0" d="m22 0h56c12.15 0 22 9.85 22 22v56c0 12.15-9.85 22-22 22h-56c-12.15 0-22-9.85-22-22v-56c0-12.15 9.85-22 22-22z"/>
+		<g>
+			<path class="s1" d="m64 64l10.5-28 10.5 28c-3.05 2.27-6.72 3.5-10.5 3.5-3.78 0-7.45-1.23-10.5-3.5z"/>
+			<path class="s1" d="m15 64l10.5-28 10.5 28c-3.05 2.27-6.72 3.5-10.5 3.5-3.78 0-7.45-1.23-10.5-3.5z"/>
+			<path class="s1" d="m32.5 81.5h35"/>
+			<path class="s1" d="m50 18.5v63"/>
+			<path class="s1" d="m24.5 31.47h6.44c6.44 0 12.87-3.22 19.31-6.44 6.44 3.22 12.88 6.44 19.31 6.44h6.44"/>
+		</g>
+	</g>
+</svg>
