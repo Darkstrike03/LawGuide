@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { Scale, Github } from "lucide-react";
+import Image from "next/image";
+import { Github } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -8,7 +9,7 @@ export default function Footer() {
         {/* Brand */}
         <div className="md:col-span-2">
           <div className="flex items-center gap-2 mb-3">
-            <Scale className="w-5 h-5 text-[#E07B39]" strokeWidth={1.5} />
+            <Image src="/logo.svg" alt="LawGuide" width={28} height={28} className="rounded-md" />
             <span
               className="font-bold text-lg"
               style={{ fontFamily: "var(--font-lora), Georgia, serif" }}

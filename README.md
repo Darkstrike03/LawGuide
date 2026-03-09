@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="public/logo.svg" alt="LawGuide" width="60" />
+  <img src="https://raw.githubusercontent.com/Darkstrike03/LawGuide/main/public/logo.svg" alt="LawGuide" width="80" />
   <h1>LawGuide</h1>
   <p><strong>India's Free, Open-Source Legal Reference</strong></p>
   <p>

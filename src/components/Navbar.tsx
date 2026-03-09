@@ -2,7 +2,8 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { Search, Scale, Menu, X, Github } from "lucide-react";
+import Image from "next/image";
+import { Search, Menu, X, Github } from "lucide-react";
 import { useRouter } from "next/navigation";
 
 export default function Navbar() {
@@ -36,7 +37,7 @@ export default function Navbar() {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between gap-4">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 shrink-0">
-          <Scale className="w-6 h-6 text-[#E07B39]" strokeWidth={1.5} />
+          <Image src="/logo.svg" alt="LawGuide" width={32} height={32} className="rounded-lg" />
           <span
             className="font-serif font-bold text-[#0F1C2E] text-lg tracking-tight"
             style={{ fontFamily: "var(--font-lora), Georgia, serif" }}

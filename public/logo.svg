@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Rounded square background -->
+  <rect width="100" height="100" rx="22" fill="#0F1C2E"/>
+  <!-- Scales of Justice — based on the Lucide Scale icon, scaled 3.5x and centered -->
+  <g transform="translate(8, 8) scale(3.5)" stroke="#E07B39" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Right pan (triangle) -->
+    <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/>
+    <!-- Left pan (triangle) -->
+    <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/>
+    <!-- Base bar -->
+    <path d="M7 21h10"/>
+    <!-- Center vertical post -->
+    <path d="M12 3v18"/>
+    <!-- Top horizontal beam with drape curve -->
+    <path d="M3 7h2c2 0 4-1 6-2 2 1 4 2 6 2h2"/>
+  </g>
+</svg>

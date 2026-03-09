@@ -17,14 +17,20 @@ const lora = Lora({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://lawguide.vercel.app"),
   title: "LawGuide — India's Open Legal Reference",
   description:
     "A free, open-source repository of Indian laws for the public, lawyers, and law students. Browse the IPC, CrPC, Constitution, and more.",
   keywords: ["law", "india", "ipc", "legal", "open source", "constitution"],
+  icons: {
+    icon: [{ url: "/logo.svg", type: "image/svg+xml" }],
+    apple: "/logo.svg",
+  },
   openGraph: {
     title: "LawGuide — India's Open Legal Reference",
     description: "A free, open-source repository of Indian laws.",
     type: "website",
+    images: [{ url: "/logo.svg" }],
   },
 };
 
