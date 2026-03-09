@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "LawGuide Law File Schema",
+  "description": "Schema for law files in the LawGuide repository",
+  "type": "object",
+  "required": ["id", "title", "act", "section", "jurisdiction", "category", "tags", "last_amended"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the law entry, e.g. IPC-302",
+      "pattern": "^[A-Z0-9_-]+$"
+    },
+    "title": {
+      "type": "string",
+      "description": "Full name/title of the section or article"
+    },
+    "act": {
+      "type": "string",
+      "description": "Full name of the Act, Code, or Constitution"
+    },
+    "section": {
+      "type": "string",
+      "description": "Section number, article number, or other reference"
+    },
+    "jurisdiction": {
+      "type": "string",
+      "description": "Country code in lowercase, e.g. india"
+    },
+    "category": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "One or more categories: criminal, civil, constitutional, property, family, cyber, etc.",
+      "minItems": 1
+    },
+    "punishment": {
+      "type": "string",
+      "description": "Short description of the punishment, if applicable"
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Searchable keywords related to this law",
+      "minItems": 1
+    },
+    "last_amended": {
+      "type": "number",
+      "description": "Year of last amendment or original enactment"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["active", "repealed", "amended"],
+      "description": "Current status of the law section"
+    },
+    "language": {
+      "type": "string",
+      "description": "Language of the content, default is 'en'"
+    },
+    "short_description": {
+      "type": "string",
+      "description": "One or two sentence plain-language summary of the section"
+    }
+  },
+  "additionalProperties": false
+}
