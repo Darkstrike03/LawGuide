@@ -1,6 +1,7 @@
 import { getAllSlugs, getLawBySlug } from "@/lib/laws";
 import { notFound } from "next/navigation";
 import { MDXRemote } from "next-mdx-remote/rsc";
+import remarkGfm from "remark-gfm";
 import Link from "next/link";
 import {
   ChevronRight,
@@ -139,10 +140,20 @@ export default async function LawPage({ params }: LawPageProps) {
                   prose-a:text-[#E07B39] prose-a:no-underline hover:prose-a:underline
                   prose-li:text-[#374151]
                   prose-blockquote:border-l-[#E07B39] prose-blockquote:text-[#6B7280]
-                  prose-code:text-[#0F1C2E] prose-code:bg-[#F4F0EB]"
+                  prose-code:text-[#0F1C2E] prose-code:bg-[#F4F0EB]
+                  prose-table:w-full prose-table:border-collapse prose-thead:bg-[#F4F0EB]
+                  prose-th:border prose-th:border-[#E8E4DF] prose-th:px-3 prose-th:py-2 prose-th:text-left
+                  prose-td:border prose-td:border-[#E8E4DF] prose-td:px-3 prose-td:py-2"
                 style={{ fontFamily: "var(--font-inter), system-ui, sans-serif" }}
               >
-                <MDXRemote source={law.content} />
+                <MDXRemote
+                  source={law.content}
+                  options={{
+                    mdxOptions: {
+                      remarkPlugins: [remarkGfm],
+                    },
+                  }}
+                />
               </div>
             </div>
           </article>
