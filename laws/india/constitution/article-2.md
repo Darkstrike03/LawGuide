@@ -20,7 +20,7 @@ Constitution (Thirty-sixth Amendment) Act, 1975, s. 5 (w.e.f. 26-4-1975).]
 
 ---
 
-<!-- LLM_ENRICHMENT_START -->
+
 ### Plain English Summary
 This article gives the Parliament (the law-making body) the power to decide whether a new territory can join the Union of India or if a completely new state can be created. The government decides the rules and conditions for this admission or establishment.
 
@@ -40,4 +40,4 @@ This article is crucial because it defines the constitutional mechanism through 
 - [Article 1](/laws/india/constitution/article-1)
 - [Article 3](/laws/india/constitution/article-3)
 - [Article 368](/laws/india/constitution/article-368)
-<!-- LLM_ENRICHMENT_END -->
+

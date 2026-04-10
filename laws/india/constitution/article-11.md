@@ -22,7 +22,7 @@ General
 
 ---
 
-<!-- LLM_ENRICHMENT_START -->
+
 ### Plain English Summary
 This article states that the Parliament has the power to create laws that control how citizenship is acquired and terminated in India. It means the government, through Parliament, decides the rules for who is a citizen and how that status can change.
 
@@ -41,4 +41,4 @@ No major landmark judgements.
 ### Related Articles
 - [Article 5 — Citizenship of India](/laws/india/constitution/article-5)
 - [Article 10 — Citizenship by naturalization](/laws/india/constitution/article-10)
-<!-- LLM_ENRICHMENT_END -->
+

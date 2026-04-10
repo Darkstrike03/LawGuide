@@ -27,7 +27,7 @@ Dominion of India or the Government of India.
 
 ---
 
-<!-- LLM_ENRICHMENT_START -->
+
 ### Plain English Summary
 This article allows certain people who have Indian ancestry and live outside India to become citizens of India. This can happen if they apply to the Indian diplomatic or consular representative in their current country for citizenship registration.
 
@@ -46,4 +46,4 @@ No major landmark judgements.
 ### Related Articles
 - [Article 5 — Citizenship of India](/laws/india/constitution/article-5)
 - [Article 11 — Parliament to regulate citizenship of persons of Indian origin](/laws/india/constitution/article-11)
-<!-- LLM_ENRICHMENT_END -->
+

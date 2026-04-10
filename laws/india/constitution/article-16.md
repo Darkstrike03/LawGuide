@@ -53,7 +53,7 @@ ten per cent. of the posts in each category.]
 
 ---
 
-<!-- LLM_ENRICHMENT_START -->
+
 ### Plain English Summary
 This article ensures that every citizen has an equal chance to get a job or an appointment in government jobs, regardless of their religion, caste, sex, place of birth, or residence. It also allows the State to make special provisions for reserving jobs for certain backward classes or Scheduled Castes and Scheduled Tribes if they are underrepresented in government services.
 
@@ -76,4 +76,4 @@ This article is fundamental to ensuring social justice by promoting equality in 
 - [Article 14 — Equality before law](/laws/india/constitution/article-14)
 - [Article 15 — Prohibition of discrimination on grounds of religion, race, caste, sex or place of birth](/laws/india/constitution/article-15)
 - [Article 164 — Public Service Commissions](/laws/india/constitution/article-164)
-<!-- LLM_ENRICHMENT_END -->
+

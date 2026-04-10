@@ -24,7 +24,7 @@ and]
 
 ---
 
-<!-- LLM_ENRICHMENT_START -->
+
 ### Plain English Summary
 This article establishes that India is a single Union made up of various States. It defines the total territory of India to include all the land belonging to the States, the special Union Territories listed in the First Schedule, and any other territories that India might acquire in the future.
 
@@ -42,4 +42,4 @@ No major landmark judgements.
 ### Related Articles
 - [Article 3 — Formation of new States](/laws/india/constitution/article-3)
 - [Article 12 — Definition of 'State'](/laws/india/constitution/article-12)
-<!-- LLM_ENRICHMENT_END -->
+

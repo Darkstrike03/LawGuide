@@ -25,7 +25,7 @@ Right to Freedom
 
 ---
 
-<!-- LLM_ENRICHMENT_START -->
+
 ### Plain English Summary
 This article states that the government has the power to decide who gets special titles. It also prohibits Indian citizens from accepting any titles from foreign countries, and restricts non-citizens holding government positions from accepting such titles without presidential permission.
 
@@ -43,4 +43,4 @@ No major landmark judgements.
 
 ### Related Articles
 - [Article 51A — Fundamental Duties](/laws/india/constitution/article-51a)
-<!-- LLM_ENRICHMENT_END -->
+

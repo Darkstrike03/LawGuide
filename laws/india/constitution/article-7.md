@@ -26,7 +26,7 @@ after the nineteenth day of July, 1948.
 
 ---
 
-<!-- LLM_ENRICHMENT_START -->
+
 ### Plain English Summary
 This article states that a person who moved from India to Pakistan after March 1, 1947, is not considered a citizen of India. However, there is an exception for those who return to India with permission for resettlement or permanent return.
 
@@ -44,4 +44,4 @@ No major landmark judgements.
 ### Related Articles
 - [Article 5 — Citizenship of India](/laws/india/constitution/article-5)
 - [Article 6 — Citizenship of India](/laws/india/constitution/article-6)
-<!-- LLM_ENRICHMENT_END -->
+

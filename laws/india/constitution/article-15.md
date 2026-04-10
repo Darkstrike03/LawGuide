@@ -60,7 +60,7 @@ economic disadvantage.]
 
 ---
 
-<!-- LLM_ENRICHMENT_START -->
+
 ### Plain English Summary
 This article ensures that the government cannot treat any citizen differently or discriminate against them based on their religion, race, caste, sex, place of birth, or any combination of these factors. It also allows the State to make special provisions for certain groups, like women, children, and socially or educationally backward classes, to ensure equality.
 
@@ -83,4 +83,4 @@ This article is the foundation of equality in India, ensuring that all citizens 
 - [Article 14 — Equality before law](/laws/india/constitution/article-14)
 - [Article 16 — Equality of opportunity in public employment](/laws/india/constitution/article-16)
 - [Article 29 — Protection of interests of minorities](/laws/india/constitution/article-29)
-<!-- LLM_ENRICHMENT_END -->
+

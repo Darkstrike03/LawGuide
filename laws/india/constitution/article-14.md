@@ -18,7 +18,7 @@ India.
 
 ---
 
-<!-- LLM_ENRICHMENT_START -->
+
 ### Plain English Summary
 This article guarantees that everyone in India is treated equally by the law, and the law must be applied equally to everyone. It ensures that no person is discriminated against based on their status or background when it comes to legal rights and protections.
 
@@ -41,4 +41,4 @@ This article is the foundation of justice in India, ensuring that all citizens, 
 - [Article 15 — Prohibition of discrimination on grounds of religion, race, caste, sex or place of birth](/laws/india/constitution/article-15)
 - [Article 16 — Equality of opportunity in matters of public employment](/laws/india/constitution/article-16)
 - [Article 17 — Abolition of untouchability](/laws/india/constitution/article-17)
-<!-- LLM_ENRICHMENT_END -->
+

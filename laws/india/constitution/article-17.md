@@ -18,7 +18,7 @@ of “Untouchability” shall be an offence punishable in accordance with law.
 
 ---
 
-<!-- LLM_ENRICHMENT_START -->
+
 ### Plain English Summary
 This article makes it illegal to practice or enforce any form of untouchability against any person. If anyone causes a disadvantage or disability because of untouchability, it is considered a crime that can be punished by law.
 
@@ -39,4 +39,4 @@ This article ensures that no person is discriminated against or subjected to hum
 ### Related Articles
 - [Article 15 — Prohibition of Discrimination on Grounds of Religion, Race, Caste, Sex or Place of Birth](/laws/india/constitution/article-15)
 - [Article 19 — Protection of Certain Rights of Citizens](/laws/india/constitution/article-19)
-<!-- LLM_ENRICHMENT_END -->
+

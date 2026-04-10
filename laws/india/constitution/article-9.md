@@ -20,7 +20,7 @@ voluntarily acquired the citizenship of any foreign State.
 
 ---
 
-<!-- LLM_ENRICHMENT_START -->
+
 ### Plain English Summary
 This article states that if an Indian citizen voluntarily becomes a citizen of another foreign country, they automatically lose their citizenship of India. This prevents dual citizenship and ensures that an individual cannot claim citizenship in both countries simultaneously.
 
@@ -39,4 +39,4 @@ No major landmark judgements.
 - [Article 5 — Citizenship of India](/laws/india/constitution/article-5)
 - [Article 6 — Citizenship by birth in the territory of India](/laws/india/constitution/article-6)
 - [Article 8 — Citizenship by admission into India](/laws/india/constitution/article-8)
-<!-- LLM_ENRICHMENT_END -->
+

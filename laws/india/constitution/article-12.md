@@ -19,7 +19,7 @@ the territory of India or under the control of the Government of India.
 
 ---
 
-<!-- LLM_ENRICHMENT_START -->
+
 ### Plain English Summary
 This article defines what is legally considered a "State" in the Indian Constitution. It means that when we talk about government bodies, it includes the central government (Union and Parliament), state governments, and any local or other authorities that operate within India or are controlled by the central government.
 
@@ -37,4 +37,4 @@ This definition is crucial because it determines which entities can be held acco
 ### Related Articles
 - [Article 1 — Union and its Territory](/laws/india/constitution/article-1)
 - [Article 368 — Power of Parliament to amend the Constitution and laws](/laws/india/constitution/article-368)
-<!-- LLM_ENRICHMENT_END -->
+

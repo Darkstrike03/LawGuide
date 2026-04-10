@@ -30,7 +30,7 @@ CITIZENSHIP
 
 ---
 
-<!-- LLM_ENRICHMENT_START -->
+
 ### Plain English Summary
 This article explains that any law made under Articles 2 or 3 (which deal with amending the Constitution) must include necessary changes to the First and Fourth Schedules. It also allows for adding other related provisions as Parliament deems necessary, but such a law itself is not considered an amendment under Article 368.
 
@@ -49,4 +49,4 @@ It clarifies the scope of laws that can be used to make changes related to the S
 - [Article 2 — Union to enter into agreement with any State](/laws/india/constitution/article-2)
 - [Article 3 — Parliament to legislate with respect to any matter](/laws/india/constitution/article-3)
 - [Article 368 — Power of Parliament to amend the Constitution and its amendment procedure](/laws/india/constitution/article-368)
-<!-- LLM_ENRICHMENT_END -->
+

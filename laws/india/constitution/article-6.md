@@ -36,7 +36,7 @@ of his application.
 
 ---
 
-<!-- LLM_ENRICHMENT_START -->
+
 ### Plain English Summary
 This article deals with the citizenship status of certain people who moved from Pakistan to India. It sets specific conditions under which a person migrating from Pakistan is considered a citizen of India when the Constitution came into effect.
 
@@ -54,4 +54,4 @@ No major landmark judgements.
 
 ### Related Articles
 - [Article 5 — Citizenship](/laws/india/constitution/article-5)
-<!-- LLM_ENRICHMENT_END -->
+

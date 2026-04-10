@@ -41,7 +41,7 @@ Union territory.]
 
 ---
 
-<!-- LLM_ENRICHMENT_START -->
+
 ### Plain English Summary
 This article gives the Parliament the power to create new states, change the borders or names of existing states, or adjust the size of any state. This power is very significant as it deals with the fundamental structure and geography of the Indian states.
 
@@ -60,4 +60,4 @@ No major landmark judgements.
 ### Related Articles
 - [Article 1](/laws/india/constitution/article-1)
 - [Article 368](/laws/india/constitution/article-368)
-<!-- LLM_ENRICHMENT_END -->
+

@@ -35,7 +35,7 @@ Right to Equality
 
 ---
 
-<!-- LLM_ENRICHMENT_START -->
+
 ### Plain English Summary
 This article ensures that no law currently in place that goes against the fundamental rights guaranteed by the Constitution is valid. It also prevents the government from making new laws that take away or reduce these fundamental rights. Essentially, it protects your basic rights against unfair laws.
 
@@ -58,4 +58,4 @@ This article is crucial because it acts as a shield, ensuring that the fundament
 - [Article 14 — Equality before law](/laws/india/constitution/article-14)
 - [Article 21 — Protection of life and personal liberty](/laws/india/constitution/article-21)
 - [Article 368 — Power of Parliament to amend the Constitution and laws](/laws/india/constitution/article-368)
-<!-- LLM_ENRICHMENT_END -->
+
