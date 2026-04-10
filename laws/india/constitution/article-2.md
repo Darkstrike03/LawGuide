@@ -1,48 +1,43 @@
 ---
-id: CONST-2
-title: "Article 2 — Admission or establishment of new States"
+id: CONST-ART2
+title: "Admission or establishment of new States"
 act: "Constitution of India"
-article: "2"
+section: "Article 2"
 jurisdiction: "india"
-category: ["constitutional"]
-part: "I"
-part_name: "The Union and Its Territory"
-tags: ["constitution", "india", "article-2", "constitutional-law"]
-last_amended: 2024
+category: ["constitutional", "territory"]
+tags: ["constitutional", "territory", "constitution"]
+last_amended: 1950
 status: "active"
-short_description: "Article 2 of the Constitution of India — Admission or establishment of new States."
+short_description: "Admission or establishment of new States — a provision under The Union and Its Territory of the Constitution of India."
 ---
 
 ## Article 2 — Admission or establishment of new States
 
-2. Admission or establishment of new States.—Parliament may
 by law admit into the Union, or establish, new States on such terms and
 conditions as it thinks fit.
-[2A. [Sikkim to be associated with the Union.] —Omitted by the
+2A. [Sikkim to be associated with the Union.] —Omitted by the
 Constitution (Thirty-sixth Amendment) Act, 1975, s. 5 (w.e.f. 26-4-1975).]
 
 ---
 
-### Overview
-
-Article 2 falls under **Part I — The Union and Its Territory** of the Constitution of India.
-
-### Related Articles
-
-- [All articles in Part I](/laws/india/constitution/part-i)
-
----
-
+<!-- LLM_ENRICHMENT_START -->
 ### Plain English Summary
-This article gives the Parliament (the law-making body of India) the power to decide whether to bring new states into the Union of India or to create entirely new states. Parliament can do this based on whatever conditions and rules it deems appropriate.
+This article gives the Parliament (the law-making body) the power to decide whether a new territory can join the Union of India or if a completely new state can be created. The government decides the rules and conditions for this admission or establishment.
 
 ### Key Points
 *   Parliament has the authority to admit new states into the Indian Union.
-*   Parliament also has the power to establish brand-new states.
-*   The terms and conditions for admission or establishment are decided by Parliament.
+*   Parliament also has the power to establish entirely new states.
+*   The terms and conditions for admission or establishment are decided by the law-making body.
+*   This is a fundamental power related to the territorial integrity of India.
 
 ### Why It Matters
-This article establishes the constitutional mechanism through which the geographical boundaries of India can change, either by adding new states or creating new ones.
+This article is crucial because it defines the constitutional mechanism through which the geographical boundaries and political structure of India can change over time.
+
+### Landmark Judgements
+*No major landmark judgements.*
 
 ### Related Articles
-- [Article 1 — Name and territory of the Union](/laws/india/constitution/article-1)
+- [Article 1](/laws/india/constitution/article-1)
+- [Article 3](/laws/india/constitution/article-3)
+- [Article 368](/laws/india/constitution/article-368)
+<!-- LLM_ENRICHMENT_END -->

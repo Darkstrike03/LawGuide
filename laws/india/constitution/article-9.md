@@ -1,16 +1,14 @@
 ---
-id: CONST-9
-title: "Article 9 — Persons voluntarily acquiring citizenship of a foreign State not to be citizens"
+id: CONST-ART9
+title: "Persons voluntarily acquiring citizenship of a foreign State not to be citizens"
 act: "Constitution of India"
-article: "9"
+section: "Article 9"
 jurisdiction: "india"
-category: ["constitutional"]
-part: "II"
-part_name: "Citizenship"
-tags: ["constitution", "india", "article-9", "constitutional-law"]
-last_amended: 2024
+category: ["constitutional", "citizenship"]
+tags: ["constitutional", "citizenship", "constitution"]
+last_amended: 1950
 status: "active"
-short_description: "Article 9 of the Constitution of India — Persons voluntarily acquiring citizenship of a foreign State not to be citizens."
+short_description: "Persons voluntarily acquiring citizenship of a foreign State not to be citizens — a provision under Citizenship of the Constitution of India."
 ---
 
 ## Article 9 — Persons voluntarily acquiring citizenship of a foreign State not to be citizens
@@ -22,28 +20,23 @@ voluntarily acquired the citizenship of any foreign State.
 
 ---
 
-### Overview
-
-Article 9 falls under **Part II — Citizenship** of the Constitution of India.
-
-### Related Articles
-
-- [All articles in Part II](/laws/india/constitution/part-ii)
-
----
-
+<!-- LLM_ENRICHMENT_START -->
 ### Plain English Summary
-This article states that if a person chooses to become a citizen of another foreign country, they cannot simultaneously be considered a citizen of India based on the rules laid out in Articles 5, 6, or 8. Essentially, acquiring foreign citizenship automatically removes someone from being an Indian citizen under these specific provisions.
+This article states that if an Indian citizen voluntarily becomes a citizen of another foreign country, they automatically lose their citizenship of India. This prevents dual citizenship and ensures that an individual cannot claim citizenship in both countries simultaneously.
 
 ### Key Points
-* If you voluntarily take up citizenship in a foreign state, you are not considered a citizen of India under Article 5.
-* Similarly, if you acquire foreign citizenship voluntarily, you will not be deemed a citizen of India under Article 6 or Article 8.
-* This rule applies to prevent dual citizenship claims under these specific constitutional provisions.
+* If you voluntarily take up citizenship of a foreign state, you are not considered a citizen of India under Articles 5, 6, or 8.
+* This rule applies to prevent dual citizenship.
+* The loss of Indian citizenship happens automatically upon voluntary acquisition of foreign citizenship.
 
 ### Why It Matters
-This article clarifies that voluntary acquisition of foreign citizenship acts as a bar against being recognized as an Indian citizen through the specified constitutional pathways.
+It is a crucial provision for maintaining the integrity of Indian citizenship by clearly defining the conditions under which an Indian person can lose their status as a citizen of India.
+
+### Landmark Judgements
+No major landmark judgements.
 
 ### Related Articles
-- [Article 5 — Citizenship at the commencement of the Constitution](/laws/india/constitution/article-5)
-- [Article 6 — Citizenship by birth in India](/laws/india/constitution/article-6)
-- [Article 8 — Citizenship by incorporation of territory into India](/laws/india/constitution/article-8)
+- [Article 5 — Citizenship of India](/laws/india/constitution/article-5)
+- [Article 6 — Citizenship by birth in the territory of India](/laws/india/constitution/article-6)
+- [Article 8 — Citizenship by admission into India](/laws/india/constitution/article-8)
+<!-- LLM_ENRICHMENT_END -->

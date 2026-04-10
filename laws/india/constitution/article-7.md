@@ -1,21 +1,18 @@
 ---
-id: CONST-7
-title: "Article 7 — Rights of citizenship of certain migrants to Pakistan"
+id: CONST-ART7
+title: "Rights of citizenship of certain migrants to Pakistan"
 act: "Constitution of India"
-article: "7"
+section: "Article 7"
 jurisdiction: "india"
-category: ["constitutional"]
-part: "II"
-part_name: "Citizenship"
-tags: ["constitution", "india", "article-7", "constitutional-law"]
-last_amended: 2024
+category: ["constitutional", "citizenship"]
+tags: ["constitutional", "citizenship", "constitution"]
+last_amended: 1950
 status: "active"
-short_description: "Article 7 of the Constitution of India — Rights of citizenship of certain migrants to Pakistan."
+short_description: "Rights of citizenship of certain migrants to Pakistan — a provision under Citizenship of the Constitution of India."
 ---
 
 ## Article 7 — Rights of citizenship of certain migrants to Pakistan
 
-7. Rights of citizenship of certain migrants to Pakistan.—
 Notwithstanding anything in articles 5 and 6, a person who has after the first
 day of March, 1947, migrated from the territory of India to the territory now
 included in Pakistan shall not be deemed to be a citizen of India:
@@ -29,27 +26,22 @@ after the nineteenth day of July, 1948.
 
 ---
 
-### Overview
-
-Article 7 falls under **Part II — Citizenship** of the Constitution of India.
-
-### Related Articles
-
-- [All articles in Part II](/laws/india/constitution/part-ii)
-
----
-
+<!-- LLM_ENRICHMENT_START -->
 ### Plain English Summary
-This article states that a person who moved from India to Pakistan after March 1, 1947, is not considered a citizen of India. However, there is an exception for those who migrate to Pakistan but later return to India with permission for resettlement or permanent return.
+This article states that a person who moved from India to Pakistan after March 1, 1947, is not considered a citizen of India. However, there is an exception for those who return to India with permission for resettlement or permanent return.
 
 ### Key Points
-* A person who migrated from India to Pakistan after March 1, 1947, is not considered a citizen of India.
-* This rule does not apply if a person migrates to Pakistan and then returns to India with a permit for resettlement or permanent return.
-* Such a person returning to India under such a permit is deemed to have migrated to India after July 19, 1948, for citizenship purposes.
+* A person migrating from India to Pakistan after March 1, 1947, is not automatically considered a citizen of India under this rule.
+* The rule applies to migrants who move to Pakistan after that specific date.
+* An exception exists for those who return to India with a valid permit for resettlement or permanent return.
 
 ### Why It Matters
-This article establishes the legal status of certain migrants regarding Indian citizenship based on their movement between India and Pakistan after the partition.
+This article defines the legal status of certain individuals regarding Indian citizenship based on their migration status between India and Pakistan post-partition.
+
+### Landmark Judgements
+No major landmark judgements.
 
 ### Related Articles
 - [Article 5 — Citizenship of India](/laws/india/constitution/article-5)
 - [Article 6 — Citizenship of India](/laws/india/constitution/article-6)
+<!-- LLM_ENRICHMENT_END -->

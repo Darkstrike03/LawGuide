@@ -1,52 +1,45 @@
 ---
-id: CONST-1
-title: "Article 1 — Name and territory of the Union"
+id: CONST-ART1
+title: "Name and territory of the Union"
 act: "Constitution of India"
-article: "1"
+section: "Article 1"
 jurisdiction: "india"
-category: ["constitutional"]
-part: "I"
-part_name: "The Union and Its Territory"
-tags: ["constitution", "india", "article-1", "constitutional-law"]
-last_amended: 2024
+category: ["constitutional", "territory"]
+tags: ["constitutional", "territory", "constitution"]
+last_amended: 1950
 status: "active"
-short_description: "Article 1 of the Constitution of India — Name and territory of the Union."
+short_description: "Name and territory of the Union — a provision under The Union and Its Territory of the Constitution of India."
 ---
 
 ## Article 1 — Name and territory of the Union
 
-1. Name and territory of the Union.—(1) India, that is Bharat,
 shall be a Union of States.
-[(2) The States and the territories thereof shall be as specified in
+**(2)** The States and the territories thereof shall be as specified in
 the First Schedule.]
-(3) The territory of India shall comprise—
-(a) the territories of the States;
-[(b) the Union territories specified in the First Schedule;
+**(3)** The territory of India shall comprise—
+- **(a)** the territories of the States;
+- **(b)** the Union territories specified in the First Schedule;
 and]
-(c) such other territories as may be acquired.
+- **(c)** such other territories as may be acquired.
 
 ---
 
-### Overview
-
-Article 1 falls under **Part I — The Union and Its Territory** of the Constitution of India.
-
-### Related Articles
-
-- [All articles in Part I](/laws/india/constitution/part-i)
-
----
-
+<!-- LLM_ENRICHMENT_START -->
 ### Plain English Summary
-This article officially states that India, also known as Bharat, is a Union composed of various States. The exact list of all these States and the specific territories belonging to the Union are detailed in the First Schedule of the Constitution. Furthermore, the total territory of India includes the land of the States, the Union territories listed in the First Schedule, and any other territories that might be acquired later.
+This article establishes that India is a single Union made up of various States. It defines the total territory of India to include all the land belonging to the States, the special Union Territories listed in the First Schedule, and any other territories that India might acquire in the future.
 
 ### Key Points
-*   India is officially named Bharat and functions as a Union of States.
-*   The specific list of all States and their territories is detailed in the First Schedule.
-*   The territory of India includes the territories of the States, the Union territories mentioned in the First Schedule, and any other territories acquired later.
+*   India is legally defined as a 'Union of States'.
+*   The exact list of all States and Union Territories is detailed in the First Schedule of the Constitution.
+*   India's territory includes the land of the States, the specified Union Territories, and any newly acquired lands.
 
 ### Why It Matters
-This article establishes the fundamental geographical and political boundaries that define what constitutes the nation of India and its constituent parts.
+This article forms the foundational geographical and political boundary definition for the entire country, establishing what constitutes the physical area of India.
+
+### Landmark Judgements
+No major landmark judgements.
 
 ### Related Articles
-- [Article 3 — Formation of new States and alteration of areas, boundaries or names of existing States](/laws/india/constitution/article-3)
+- [Article 3 — Formation of new States](/laws/india/constitution/article-3)
+- [Article 12 — Definition of 'State'](/laws/india/constitution/article-12)
+<!-- LLM_ENRICHMENT_END -->
