@@ -1,58 +1,47 @@
 ---
 id: CONST-ART21
-title: "Protection of Life and Personal Liberty"
+title: "Protection of life and personal liberty"
 act: "Constitution of India"
 section: "Article 21"
 jurisdiction: "india"
 category: ["constitutional", "fundamental rights", "civil"]
-tags: ["right to life", "personal liberty", "fundamental right", "constitution", "article 21", "due process"]
-last_amended: 1950
+tags: ["constitutional", "fundamental rights", "civil", "right to life", "personal liberty", "constitution"]
+last_amended: 2019
 status: "active"
-short_description: "Guarantees that no person shall be deprived of their life or personal liberty except according to procedure established by law. One of the most expansively interpreted articles in the Constitution."
+short_description: "Protection of life and personal liberty — a provision under Fundamental Rights of the Constitution of India."
 ---
 
-## Article 21 — Protection of Life and Personal Liberty
+## Article 21 — Protection of life and personal liberty
 
-No person shall be deprived of his **life** or **personal liberty** except according to **procedure established by law**.
+deprived of his life or personal liberty except according to procedure
+established by law.
+
+21A. Right to education.—The State shall provide free and
+compulsory education to all children of the age of six to fourteen years in such
+manner as the State may, by law, determine.]
 
 ---
 
-### Scope and Interpretation
 
-Article 21 is one of the most fundamental and widely interpreted provisions of the Indian Constitution. The Supreme Court of India has progressively expanded what "life" and "personal liberty" mean over decades.
+### Plain English Summary
+This article guarantees that every person has the fundamental right to live with dignity and has the right to make decisions about their own life (personal liberty). The government cannot take away these rights unless it follows a proper legal procedure.
 
-### Rights Implicit under Article 21
+### Key Points
+*   It protects the right to life and personal freedom for all citizens.
+*   Any restriction on these rights must be based on a law established by the government.
+*   This is considered the cornerstone of fundamental rights in India.
 
-The Supreme Court has read the following rights as part of Article 21:
-
-- **Right to live with dignity** — *Maneka Gandhi v. Union of India* (1978)
-- **Right to education** — *Mohini Jain v. State of Karnataka* (1992) *(later separately enshrined in Article 21A)*
-- **Right to health and medical care** — *Paschim Banga Khet Mazdoor Sabha v. State of West Bengal* (1996)
-- **Right to a clean environment** — *M.C. Mehta v. Union of India* (1987)
-- **Right to privacy** — *Justice K.S. Puttaswamy v. Union of India* (2017) (9-judge bench)
-- **Right to speedy trial** — *Hussainara Khatoon v. State of Bihar* (1979)
-- **Right against solitary confinement** — *Sunil Batra v. Delhi Administration* (1979)
-- **Right to legal aid** — *M.H. Hoskot v. State of Maharashtra* (1978)
-- **Right to livelihood** — *Olga Tellis v. Bombay Municipal Corporation* (1985)
-- **Right against custodial violence** — *D.K. Basu v. State of West Bengal* (1996)
+### Why It Matters
+This article ensures that basic human rights, like the right to live with dignity and freedom, are protected against arbitrary actions by the state.
 
 ### Landmark Judgements
-
 | Case | Year | Significance |
-|---|---|---|
-| *A.K. Gopalan v. State of Madras* | 1950 | Initial narrow interpretation — "procedure established by law" meant any procedure |
-| *Maneka Gandhi v. Union of India* | 1978 | Overruled Gopalan; held procedure must be fair, just, and reasonable |
-| *Francis Coralie Mullin v. Administrator, Union Territory of Delhi* | 1981 | Right to live with basic human dignity |
-| *Olga Tellis v. Bombay Municipal Corporation* | 1985 | Right to livelihood is part of right to life |
-| *Unni Krishnan v. State of Andhra Pradesh* | 1993 | Right to education up to age 14 |
-| *Justice K.S. Puttaswamy v. Union of India* | 2017 | Right to privacy is a fundamental right |
-
-### Article 21A — Right to Education *(added by 86th Amendment, 2002)*
-
-The State shall provide **free and compulsory education** to all children of the age of **6 to 14 years** in such manner as the State may, by law, determine.
+| :--- | :--- | :--- |
+| *Maneka Gandhi vs Union of India* | 1978 | Expanded the scope of Article 21 to mean that the procedure established by law must be fair, just, and reasonable. |
+| *Francis Coralie Mullin vs Administrator, Union Territory of Delhi* | 1981 | Established that the right to life under Article 21 includes the right to live with human dignity. |
 
 ### Related Articles
+- [Article 14 — Equality before law](/laws/india/constitution/article-14)
+- [Article 19 — Protection of certain rights relating to freedom of speech, etc.](/laws/india/constitution/article-19)
+- [Article 25 — Freedom of conscience and free profession, practice and propagation of religion](/laws/india/constitution/article-25)
 
-- [Article 19 — Freedom of Speech and Expression](/laws/india/constitution/article-19)
-- [Article 22 — Protection against Arrest and Detention in Certain Cases](/laws/india/constitution/article-22)
-- [Article 32 — Right to Constitutional Remedies](/laws/india/constitution/article-32)

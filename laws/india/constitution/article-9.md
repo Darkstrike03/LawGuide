@@ -22,21 +22,21 @@ voluntarily acquired the citizenship of any foreign State.
 
 
 ### Plain English Summary
-This article states that if an Indian citizen voluntarily becomes a citizen of another foreign country, they automatically lose their citizenship of India. This prevents dual citizenship and ensures that an individual cannot claim citizenship in both countries simultaneously.
+This article states that if an Indian citizen voluntarily chooses to become a citizen of another foreign country, they automatically lose their citizenship of India. This prevents dual citizenship where an individual claims citizenship in both countries simultaneously.
 
 ### Key Points
-* If you voluntarily take up citizenship of a foreign state, you are not considered a citizen of India under Articles 5, 6, or 8.
-* This rule applies to prevent dual citizenship.
-* The loss of Indian citizenship happens automatically upon voluntary acquisition of foreign citizenship.
+*   Voluntarily acquiring citizenship of a foreign state disqualifies a person from being an Indian citizen under Articles 5, 6, or 8.
+*   This rule applies to individuals who consciously take on the citizenship of another nation.
+*   It is a provision designed to maintain clear national identity and prevent conflicting loyalties.
 
 ### Why It Matters
-It is a crucial provision for maintaining the integrity of Indian citizenship by clearly defining the conditions under which an Indian person can lose their status as a citizen of India.
+This clause helps India manage situations where an individual might have conflicting legal statuses regarding nationality, ensuring that citizens are clearly defined as belonging to one nation.
 
 ### Landmark Judgements
-No major landmark judgements.
+*No major landmark judgements.*
 
 ### Related Articles
 - [Article 5 — Citizenship of India](/laws/india/constitution/article-5)
-- [Article 6 — Citizenship by birth in the territory of India](/laws/india/constitution/article-6)
-- [Article 8 — Citizenship by admission into India](/laws/india/constitution/article-8)
+- [Article 6 — Citizenship by naturalization](/laws/india/constitution/article-6)
+- [Article 8 — Citizenship by incorporation of territory](/laws/india/constitution/article-8)
 

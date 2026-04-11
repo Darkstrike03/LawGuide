@@ -20,25 +20,26 @@ India.
 
 
 ### Plain English Summary
-This article guarantees that everyone in India is treated equally by the law, and the law must be applied equally to everyone. It ensures that no person is discriminated against based on their status or background when it comes to legal rights and protections.
+Article 14 guarantees that everyone in India is equal before the law, meaning the law must be applied equally to all citizens without any discrimination based on factors like religion, caste, gender, or social status. It ensures that the state cannot treat people differently when enforcing laws.
 
 ### Key Points
-*   **Equality before Law:** Everyone is equal in the eyes of the law; the law cannot favour one group over another.
-*   **Equal Protection of Laws:** Laws must be applied equally to similar situations, ensuring fairness.
-*   **No Discrimination:** The state cannot make unfair distinctions against any citizen.
-*   **Fundamental Right:** This principle is a fundamental right guaranteed by the Constitution.
+*   **Equality Before Law:** No person is above the law; everyone is subject to the same laws.
+*   **Equal Protection of Laws:** Laws should be applied equally to similar situations.
+*   **No Discrimination:** The state cannot make distinctions or unfair treatment based on personal characteristics.
+*   **Fundamental Right:** This is a fundamental right guaranteed by the Constitution.
 
 ### Why It Matters
-This article is the foundation of justice in India, ensuring that all citizens, regardless of their social standing, religion, or gender, receive the same legal treatment.
+This article is the foundation of justice in India, ensuring that the legal system treats all citizens fairly and without bias, promoting social equality.
 
 ### Landmark Judgements
 | Case | Year | Significance |
 | :--- | :--- | :--- |
-| *State of West Bengal vs. Anwar Ali Sarkar* | 1952 | Established that the principle of equality before the law is fundamental to the rule of law in India. |
-| *Maneka Gandhi vs. Union of India* | 1978 | Expanded the scope of Article 14, emphasizing that the law must be not just equal but also fair and reasonable. |
+| *State of Madras vs. Champakam Dorairajan* | 1951 | Established the principle that equality before the law is a fundamental right. |
+| *Maneka Gandhi vs. Union of India* | 1978 | Expanded the scope of Article 14 to require that laws must be fair, just, and reasonable, not just formally equal. |
+| *E.P. Royappa vs. State of Tamil Nadu* | 1974 | Emphasized that the concept of equality requires a deeper inquiry into the reasons behind state action. |
 
 ### Related Articles
 - [Article 15 — Prohibition of discrimination on grounds of religion, race, caste, sex or place of birth](/laws/india/constitution/article-15)
 - [Article 16 — Equality of opportunity in matters of public employment](/laws/india/constitution/article-16)
-- [Article 17 — Abolition of untouchability](/laws/india/constitution/article-17)
+- [Article 32 — Right to constitutional remedies](/laws/india/constitution/article-32)
 

@@ -22,22 +22,20 @@ Constitution (Thirty-sixth Amendment) Act, 1975, s. 5 (w.e.f. 26-4-1975).]
 
 
 ### Plain English Summary
-This article gives the Parliament (the law-making body) the power to decide whether a new territory can join the Union of India or if a completely new state can be created. The government decides the rules and conditions for this admission or establishment.
+This article gives the Parliament (the law-making body) the power to decide whether a new territory can join the Union of India or if a new state can be created. The government decides the rules and conditions for this admission or establishment.
 
 ### Key Points
-*   Parliament has the authority to admit new states into the Indian Union.
+*   Parliament has the authority to admit new states into the Union.
 *   Parliament also has the power to establish entirely new states.
-*   The terms and conditions for admission or establishment are decided by the law-making body.
+*   The terms and conditions for admission or establishment are determined by the law made by Parliament.
 *   This is a fundamental power related to the territorial integrity of India.
 
 ### Why It Matters
-This article is crucial because it defines the constitutional mechanism through which the geographical boundaries and political structure of India can change over time.
+This article is crucial because it outlines the constitutional mechanism through which India expands its geographical boundaries, affecting the political map and administrative structure of the country.
 
 ### Landmark Judgements
 *No major landmark judgements.*
 
 ### Related Articles
 - [Article 1](/laws/india/constitution/article-1)
-- [Article 3](/laws/india/constitution/article-3)
-- [Article 368](/laws/india/constitution/article-368)
 

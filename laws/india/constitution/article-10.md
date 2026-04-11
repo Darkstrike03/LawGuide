@@ -21,20 +21,20 @@ continue to be such citizen.
 
 
 ### Plain English Summary
-This article ensures that if you are deemed a citizen of India under any other part of the Constitution, you will continue to be considered a citizen of India. This means your citizenship status remains valid unless Parliament makes a specific law to change it.
+This article ensures that if you are deemed a citizen of India under any other part of the Constitution, you will continue to be a citizen of India. This means your citizenship status remains valid according to the rules set out in the Constitution.
 
 ### Key Points
-* If you are recognized as a citizen by another provision in the Constitution, that status continues.
-* Your citizenship is protected and remains valid.
-* Any changes to this status must be done through a law made by the Parliament of India.
+* If you are considered a citizen of India based on other provisions, you remain a citizen.
+* This continuation of citizenship is subject to any laws that Parliament might make.
+* It establishes the continuity of citizenship rights.
 
 ### Why It Matters
-This article provides legal certainty regarding citizenship, ensuring that existing rights and status are not automatically revoked without a formal legislative process.
+This article provides legal certainty by ensuring that a person's status as an Indian citizen is not automatically revoked unless specific legal provisions allow it.
 
 ### Landmark Judgements
 No major landmark judgements.
 
 ### Related Articles
 - [Article 5 — Citizenship at the commencement of the Constitution](/laws/india/constitution/article-5)
-- [Article 11 — Parliament to regulate citizenship of persons of Indian origin](/laws/india/constitution/article-11)
+- [Article 11 — Parliament to regulate citizenship by law](/laws/india/constitution/article-11)
 

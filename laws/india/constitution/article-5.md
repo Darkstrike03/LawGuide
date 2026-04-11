@@ -25,18 +25,18 @@ shall be a citizen of India.
 
 
 ### Plain English Summary
-This article explains who was automatically considered a citizen of India when the Constitution first came into effect. A person became a citizen if they were born in India, had a parent born in India, or had lived in India for at least five years before the Constitution began.
+This article explains who was automatically considered a citizen of India when the Constitution first came into effect. A person became a citizen if they were born in India, if one of their parents was born in India, or if they had lived in India for at least five years before the Constitution started.
 
 ### Key Points
-* Citizenship was determined based on three main criteria at the time of the Constitution's commencement.
-* The criteria were: being born in India, having an Indian parent, or having resided in India for five years prior to the commencement date.
-* This established the initial set of citizens under the new Constitution.
+* Citizenship was determined based on three main conditions at the time of the Constitution's commencement.
+* The criteria were: being born in India, having an Indian parent, or having resided in India for five years prior to that date.
+* This established the initial framework for determining citizenship for those residing in India.
 
 ### Why It Matters
-This article forms the foundational basis for understanding the initial definition and acquisition of citizenship in India.
+This article sets the foundational rules for who was considered a citizen of India at the very beginning, establishing the initial scope of citizenship rights.
 
 ### Landmark Judgements
-No major landmark judgements.
+*No major landmark judgements.*
 
 ### Related Articles
 - [Article 11 — Citizenship](/laws/india/constitution/article-11)

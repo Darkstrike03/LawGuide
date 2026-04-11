@@ -32,21 +32,22 @@ CITIZENSHIP
 
 
 ### Plain English Summary
-This article explains that any law made under Articles 2 or 3 (which deal with amending the Constitution) must include necessary changes to the First and Fourth Schedules. It also allows for adding other related provisions as Parliament deems necessary, but such a law itself is not considered an amendment under Article 368.
+This article explains that any law made under Articles 2 or 3 (which deal with amending the Constitution) must include necessary changes to the First and Fourth Schedules. It also allows for adding extra provisions needed to implement that law, such as how representation in Parliament or state legislatures is affected. However, a law made this way is not considered a constitutional amendment under Article 368 itself.
 
 ### Key Points
-* Laws under Articles 2 or 3 must contain amendments to the First and Fourth Schedules if required by the law.
-* These laws can also include extra provisions related to representation in Parliament or State Legislatures affected by the law.
-* A law made under these articles is not considered a constitutional amendment for the purpose of Article 368.
+* Laws amending the First and Fourth Schedules must be included when making changes under Articles 2 or 3.
+* Such laws can also include extra provisions needed to implement the main law.
+* These supplementary provisions can cover representation in Parliament or state legislatures.
+* A law made under this article is not treated as a constitutional amendment under Article 368.
 
 ### Why It Matters
-It clarifies the scope of laws that can be used to make changes related to the Schedules and ensures that such procedural laws do not automatically count as constitutional amendments under the strict rules of Article 368.
+This ensures that when changes are made through these specific legal routes, the necessary structural updates to the Constitution's schedules and related administrative details are properly addressed.
 
 ### Landmark Judgements
 *No major landmark judgements.*
 
 ### Related Articles
 - [Article 2 — Union to enter into agreement with any State](/laws/india/constitution/article-2)
-- [Article 3 — Parliament to legislate with respect to any matter](/laws/india/constitution/article-3)
-- [Article 368 — Power of Parliament to amend the Constitution and its amendment procedure](/laws/india/constitution/article-368)
+- [Article 3 — Parliament to enact laws for the amendment of the Constitution and for the provision of certain powers to the Parliament](/laws/india/constitution/article-3)
+- [Article 368 — Amendment of the Constitution](/laws/india/constitution/article-368)
 

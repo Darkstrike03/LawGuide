@@ -28,15 +28,15 @@ after the nineteenth day of July, 1948.
 
 
 ### Plain English Summary
-This article states that a person who moved from India to Pakistan after March 1, 1947, is not considered a citizen of India. However, there is an exception for those who return to India with permission for resettlement or permanent return.
+This article states that if someone moves from India to Pakistan after March 1, 1947, they are not considered a citizen of India. However, there is an exception for those who return to India with permission to settle or permanently return.
 
 ### Key Points
-* A person migrating from India to Pakistan after March 1, 1947, is not automatically considered a citizen of India under this rule.
-* The rule applies to migrants who move to Pakistan after that specific date.
-* An exception exists for those who return to India with a valid permit for resettlement or permanent return.
+* A person migrating from India to Pakistan after March 1, 1947, is not considered a citizen of India.
+* This rule does not apply if the person returns to India under a permit for resettlement or permanent return.
+* Such a person returning to India is treated as having migrated to India after July 19, 1948, for citizenship purposes.
 
 ### Why It Matters
-This article defines the legal status of certain individuals regarding Indian citizenship based on their migration status between India and Pakistan post-partition.
+This article establishes a clear legal distinction regarding citizenship status based on migration between India and Pakistan post-partition.
 
 ### Landmark Judgements
 No major landmark judgements.

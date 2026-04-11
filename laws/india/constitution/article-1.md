@@ -26,20 +26,20 @@ and]
 
 
 ### Plain English Summary
-This article establishes that India is a single Union made up of various States. It defines the total territory of India to include all the land belonging to the States, the special Union Territories listed in the First Schedule, and any other territories that India might acquire in the future.
+This article establishes that India is a 'Union of States'. It defines what the total territory of India includes: all the land belonging to the existing states, the special Union territories listed in the First Schedule, and any other territories that might be acquired in the future.
 
 ### Key Points
-*   India is legally defined as a 'Union of States'.
-*   The exact list of all States and Union Territories is detailed in the First Schedule of the Constitution.
-*   India's territory includes the land of the States, the specified Union Territories, and any newly acquired lands.
+*   India is legally defined as a Union composed of various States.
+*   The exact list of States and Union Territories is detailed in the First Schedule of the Constitution.
+*   The territory of India includes the states, the specified Union Territories, and any territories acquired later.
 
 ### Why It Matters
-This article forms the foundational geographical and political boundary definition for the entire country, establishing what constitutes the physical area of India.
+This article forms the foundational geographical and political boundary definition for the entire country, determining which areas fall under the jurisdiction of the Indian Union.
 
 ### Landmark Judgements
 No major landmark judgements.
 
 ### Related Articles
 - [Article 3 — Formation of new States](/laws/india/constitution/article-3)
-- [Article 12 — Definition of 'State'](/laws/india/constitution/article-12)
+- [Article 152 — Administration of Scheduled Areas and Tribal Areas](/laws/india/constitution/article-152)
 

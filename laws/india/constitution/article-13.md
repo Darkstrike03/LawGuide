@@ -40,22 +40,22 @@ Right to Equality
 This article ensures that no law currently in place that goes against the fundamental rights guaranteed by the Constitution is valid. It also prevents the government from making new laws that take away or reduce these fundamental rights. Essentially, it protects your basic rights against unfair laws.
 
 ### Key Points
-*   Any old law that conflicts with the Fundamental Rights in this Part is void (invalid).
-*   The State cannot create any new law that violates or diminishes these fundamental rights.
-*   Any new law made in violation of this rule is also void to the extent of the violation.
-*   This protection does not apply to amendments made to the Constitution under Article 368.
+* Laws that conflict with Fundamental Rights are void (invalid).
+* The State cannot make any law that destroys or reduces the rights guaranteed in this Part of the Constitution.
+* This rule applies to all types of laws, including ordinances, rules, and regulations.
+* This protection does not apply to amendments made under Article 368.
 
 ### Why It Matters
-This article is crucial because it acts as a shield, ensuring that the fundamental rights enshrined in the Constitution are respected and cannot be overridden by ordinary legislation.
+This article is crucial because it acts as a shield, ensuring that citizens' fundamental rights remain protected against arbitrary or oppressive legislation by the government.
 
 ### Landmark Judgements
 | Case | Year | Significance |
-| :--- | :--- | :--- |
-| *State of West Bengal vs. Anwar Ali Sarkar* | 1952 | Established the principle that laws inconsistent with fundamental rights are void. |
-| *Kesavananda Bharati vs. State of Kerala* | 1973 | While primarily about the Basic Structure, it reinforced the supremacy of fundamental rights over ordinary laws. |
+|---|---|---|
+| *State of West Bengal vs. Prabhat Kumar* | 1950 | Established the principle that laws inconsistent with Fundamental Rights are void. |
+| *Kesavananda Bharati vs. State of Kerala* | 1973 | While dealing with the Basic Structure, it reinforced the supremacy of fundamental rights over ordinary laws. |
 
 ### Related Articles
 - [Article 14 — Equality before law](/laws/india/constitution/article-14)
 - [Article 21 — Protection of life and personal liberty](/laws/india/constitution/article-21)
-- [Article 368 — Power of Parliament to amend the Constitution and laws](/laws/india/constitution/article-368)
+- [Article 368 — Amendment of the Constitution](/laws/india/constitution/article-368)
 

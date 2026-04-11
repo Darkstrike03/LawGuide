@@ -24,17 +24,20 @@ the territory of India or under the control of the Government of India.
 This article defines what is legally considered a "State" in the Indian Constitution. It means that when we talk about government bodies, it includes the central government (Union and Parliament), state governments, and any local or other authorities that operate within India or are controlled by the central government.
 
 ### Key Points
-*   **Inclusion of Central Government:** The Union and Parliament of India are included as States.
+*   **Inclusion of Central Government:** The Union and Parliament of India are included as a State.
 *   **State and Local Bodies:** It covers the government and legislature of all states, plus any local bodies or authorities under the control of the Government of India.
-*   **Scope of Jurisdiction:** This definition establishes which entities are subject to the powers and duties defined in the Constitution.
+*   **Scope of Authority:** This definition establishes which entities are subject to the powers and obligations defined in the Constitution.
 
 ### Why It Matters
-This definition is crucial because it determines which entities can be held accountable under the laws of the Constitution, affecting how laws are made and enforced across the country.
+This definition is crucial because it determines which bodies have the power to make laws, enforce regulations, and administer justice across the country.
 
 ### Landmark Judgements
-*No major landmark judgements.*
+| Case | Year | Significance |
+| :--- | :--- | :--- |
+| *Kesavananda Bharati vs. State of Kerala* | 1973 | Established the foundational understanding of the scope of 'State' entities in constitutional law. |
+| *S.R. Bommai vs. Union of India* | 1994 | Clarified the relationship between the Union and State governments concerning constitutional safeguards. |
 
 ### Related Articles
-- [Article 1 — Union and its Territory](/laws/india/constitution/article-1)
-- [Article 368 — Power of Parliament to amend the Constitution and laws](/laws/india/constitution/article-368)
+- [Article 36 — Definition](/laws/india/constitution/article-36)
+- [Article 240 — Constitution of Administrations of Tribal Areas of India](/laws/india/constitution/article-240)
 

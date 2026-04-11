@@ -38,20 +38,21 @@ of his application.
 
 
 ### Plain English Summary
-This article deals with the citizenship status of certain people who moved from Pakistan to India. It sets specific conditions under which a person migrating from Pakistan is considered a citizen of India when the Constitution came into effect.
+This article determines who is automatically considered a citizen of India if they moved to India from Pakistan, based on whether their family was born in India or if they met specific residency and registration requirements before the Constitution came into effect. It sets out the conditions under which certain migrants are granted Indian citizenship.
 
 ### Key Points
-*   A person migrating from Pakistan is deemed a citizen of India if they or their parents/grandparents were born in India under the rules of the Government of India Act, 1935.
-*   If the migration happened before July 19, 1948, the person must have been living in India since the date of migration.
-*   If the migration happened on or after July 19, 1948, the person must have applied to be registered as a citizen by an authorized officer before the Constitution began.
-*   A crucial condition for registration is that the person must have been living in India for at least six months before applying.
+*   A person migrating from Pakistan is deemed a citizen of India if they or their parents/grandparents were born in India under the Government of India Act, 1935.
+*   If the migration happened before July 19, 1948, residency in India since migration is sufficient.
+*   If the migration happened on or after July 19, 1948, registration as a citizen by an authorized officer was required.
+*   A person must have been resident in India for at least six months before applying for registration.
 
 ### Why It Matters
-This article established the initial framework for determining citizenship for specific groups of migrants, linking their status to their prior residency or birth within India.
+This article established the initial framework for granting citizenship to certain individuals who moved from Pakistan to India, forming an early part of India's constitutional structure regarding citizenship.
 
 ### Landmark Judgements
-No major landmark judgements.
+*No major landmark judgements.*
 
 ### Related Articles
 - [Article 5 — Citizenship](/laws/india/constitution/article-5)
+- [Article 11 — Definition of citizenship](/laws/india/constitution/article-11)
 

@@ -62,25 +62,22 @@ economic disadvantage.]
 
 
 ### Plain English Summary
-This article ensures that the government cannot treat any citizen differently or discriminate against them based on their religion, race, caste, sex, place of birth, or any combination of these factors. It also allows the State to make special provisions for certain groups, like women, children, and socially or educationally backward classes, to ensure equality.
+This article ensures that the government cannot treat any citizen differently or discriminate against them based on their religion, race, caste, sex, place of birth, or any combination of these factors. It also allows the State to make special provisions for certain groups, like women, children, and socially or educationally backward classes.
 
 ### Key Points
-*   The State is prohibited from discriminating against citizens based on religion, race, caste, sex, place of birth, or any of these grounds.
-*   Citizens cannot be denied access to public places or services based on these grounds.
-*   The State can make special provisions for the advancement of Scheduled Castes and Scheduled Tribes.
-*   The State can also make special provisions for economically weaker sections.
+* The State is prohibited from discriminating against any citizen based on religion, race, caste, sex, place of birth, or any of these grounds.
+* Citizens cannot be denied access to public places or services based solely on these personal characteristics.
+* The State can make special provisions for the advancement of Scheduled Castes and Scheduled Tribes, and socially/educationally backward classes.
+* Special provisions for economically weaker sections are also permitted, provided they do not conflict with other provisions.
 
 ### Why It Matters
-This article is the foundation of equality in India, ensuring that all citizens are treated equally by the government and society, regardless of their background.
+This article is fundamental to ensuring equality and non-discrimination in India, guaranteeing that all citizens are treated equally by the state regardless of their background.
 
 ### Landmark Judgements
-| Case | Year | Significance |
-| :--- | :--- | :--- |
-| *State of Madras vs. Champakam Dorairajan* | 1951 | Established the principle that discrimination based on caste was unconstitutional. |
-| *Indira Sawhney vs. Union of India* | 1992 | Addressed the scope and limits of reservations for socially and educationally backward classes. |
+No major landmark judgements.
 
 ### Related Articles
 - [Article 14 — Equality before law](/laws/india/constitution/article-14)
-- [Article 16 — Equality of opportunity in public employment](/laws/india/constitution/article-16)
+- [Article 19 — Freedom of speech, etc.](/laws/india/constitution/article-19)
 - [Article 29 — Protection of interests of minorities](/laws/india/constitution/article-29)
 

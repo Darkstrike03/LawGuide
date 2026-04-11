@@ -27,20 +27,21 @@ Right to Freedom
 
 
 ### Plain English Summary
-This article states that the government has the power to decide who gets special titles. It also prohibits Indian citizens from accepting any titles from foreign countries, and restricts non-citizens holding government positions from accepting such titles without presidential permission.
+This article states that the government has the power to decide who gets special titles. It also prohibits Indian citizens from accepting any titles from foreign countries, and people holding government jobs cannot accept any gifts or offices from foreign states without the President's permission.
 
 ### Key Points
 * The State decides which distinctions or titles are given.
 * Indian citizens cannot accept any titles from foreign states.
-* People not from India holding state offices cannot accept any title or payment from a foreign state without the President's approval.
-* It aims to prevent foreign influence on Indian citizens and government officials through titles.
+* Non-citizens holding state offices need Presidential consent to accept any title from a foreign state.
+* People in government jobs cannot accept any gifts or positions from foreign states without the President's approval.
 
 ### Why It Matters
-This article protects the sovereignty of India by controlling who can bestow honors and titles, ensuring that official recognition is managed by the Indian government.
+This article helps maintain national identity and prevents individuals from being influenced by foreign powers through honorary titles or official positions.
 
 ### Landmark Judgements
 No major landmark judgements.
 
 ### Related Articles
 - [Article 51A — Fundamental Duties](/laws/india/constitution/article-51a)
+- [Article 368 — Power of Parliament to amend the Constitution and laws](/laws/india/constitution/article-368)
 

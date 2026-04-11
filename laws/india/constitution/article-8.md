@@ -29,21 +29,20 @@ Dominion of India or the Government of India.
 
 
 ### Plain English Summary
-This article allows certain people who have Indian ancestry and live outside India to become citizens of India. This can happen if they apply to the Indian diplomatic or consular representative in their current country for citizenship registration.
+This article allows certain people who are of Indian origin and live outside India to be considered citizens of India. This citizenship is granted if they apply and get registered as a citizen through the Indian diplomatic or consular representative in the country where they reside.
 
 ### Key Points
 * It applies to persons whose parents or grandparents were born in India as defined by the Government of India Act, 1935.
-* The person must be ordinarily residing outside India.
-* Citizenship is granted upon registration with the Indian diplomatic/consular representative in their current country.
-* The application must follow the specific forms and procedures set by the Government of India.
+* The person must be ordinarily residing in a country outside India.
+* Citizenship is established upon registration with the Indian diplomatic/consular representative in their current country of residence.
+* This provision overrides certain rules mentioned in Article 5.
 
 ### Why It Matters
-This article provides a pathway for people of Indian origin living abroad to gain Indian citizenship, ensuring that their connection to India is recognized legally.
+This article provides a pathway for people of Indian origin living abroad to secure citizenship, offering them a legal connection to India based on ancestral ties.
 
 ### Landmark Judgements
 No major landmark judgements.
 
 ### Related Articles
 - [Article 5 — Citizenship of India](/laws/india/constitution/article-5)
-- [Article 11 — Parliament to regulate citizenship of persons of Indian origin](/laws/india/constitution/article-11)
 

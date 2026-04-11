@@ -43,16 +43,16 @@ Union territory.]
 
 
 ### Plain English Summary
-This article gives the Parliament the power to create new states, change the borders or names of existing states, or adjust the size of any state. This power is very significant as it deals with the fundamental structure and geography of the Indian states.
+This article gives the Parliament the power to create new states, change the borders or names of existing states, increase or decrease the area of a state, or merge parts of states together. However, this power is subject to certain procedures involving the President and the affected states.
 
 ### Key Points
-*   Parliament can form a new state by splitting territory from an existing state, merging two states, or adding territory to a state.
-*   Parliament can increase or decrease the area of any existing state.
-*   Parliament can change the boundaries (borders) of any state.
-*   Parliament can change the name of any state.
+*   Parliament can form a new state by splitting territory from an existing state or by joining two or more states together.
+*   Parliament can change the area, boundaries, or name of any existing state.
+*   The process requires the President's recommendation and consultation with the affected State Legislature.
+*   The definition of "State" in this article includes Union Territories, but not in the proviso to the condition.
 
 ### Why It Matters
-This article is crucial because it outlines the constitutional mechanism through which the geographical and political map of India can be altered, affecting the relationship between states and the Union.
+This article is crucial as it outlines the constitutional mechanism through which the geographical structure of India can be altered, affecting state boundaries and identities.
 
 ### Landmark Judgements
 No major landmark judgements.

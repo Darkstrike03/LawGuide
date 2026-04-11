@@ -55,25 +55,22 @@ ten per cent. of the posts in each category.]
 
 
 ### Plain English Summary
-This article ensures that every citizen has an equal chance to get a job or an appointment in government jobs, regardless of their religion, caste, sex, place of birth, or residence. It also allows the State to make special provisions for reserving jobs for certain backward classes or Scheduled Castes and Scheduled Tribes if they are underrepresented in government services.
+This article ensures that every citizen has an equal chance to get a job or an appointment in government jobs, regardless of their religion, caste, sex, place of birth, or residence. It also allows the State to make special provisions for reserving jobs for certain backward classes or Scheduled Castes and Tribes if they are underrepresented in government services.
 
 ### Key Points
-*   **Equality of Opportunity:** All citizens must have an equal opportunity for employment or office under the State.
+*   **Equality of Opportunity:** Everyone has an equal chance for employment or office under the State.
 *   **No Discrimination:** Citizens cannot be denied a job based on religion, caste, sex, descent, place of birth, residence, or any other personal characteristic.
-*   **Reservation Allowed:** The State can make reservations in appointments or promotions for backward classes or Scheduled Castes and Scheduled Tribes if they are not adequately represented in government services.
-*   **Vacancy Management:** Reservations for specific classes of vacancies can be managed separately from the overall ceiling limit.
+*   **Reservation Allowed:** The State can make reservations for backward classes or Scheduled Castes and Tribes if they are not adequately represented in government services.
+*   **Reservation in Promotions:** Reservations can also be made for promotions in favour of Scheduled Castes and Tribes.
 
 ### Why It Matters
-This article is fundamental to ensuring social justice by promoting equality in public employment while simultaneously providing a mechanism (reservations) to uplift historically disadvantaged groups in government service.
+This article is fundamental to ensuring social justice by guaranteeing equal access to public employment and allowing the government to take affirmative action to correct historical imbalances and ensure representation for marginalized groups.
 
 ### Landmark Judgements
-| Case | Year | Significance |
-| :--- | :--- | :--- |
-| *State of Madras vs. Champakam Dorai* | 1951 | Established the principle that reservations could be made based on social backwardness to ensure representation. |
-| *Indira Nehru Gandhi vs. Raj Narain* | 1975 | Addressed the constitutional validity and scope of reservations in public employment. |
+No major landmark judgements.
 
 ### Related Articles
 - [Article 14 — Equality before law](/laws/india/constitution/article-14)
 - [Article 15 — Prohibition of discrimination on grounds of religion, race, caste, sex or place of birth](/laws/india/constitution/article-15)
-- [Article 164 — Public Service Commissions](/laws/india/constitution/article-164)
+- [Article 164 — Offices of profit under the Union and the States](/laws/india/constitution/article-164)
 
